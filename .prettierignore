@@ -1,14 +1,11 @@
-# Ignore everything
-/*
-
-# Except these files & folders
-!/src
-!/public
-!/.github
-!tsconfig.json
-!astro.config.ts
-!.prettierrc.mjs
-!package.json
-!.prettierrc
-!eslint.config.js
-!README.md
+dist
+.astro
+.wrangler
+node_modules
+pnpm-lock.yaml
+scratch
+_bmad
+_bmad-output
+.agent
+.agents
+.vscode

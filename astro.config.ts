@@ -1,87 +1,23 @@
-import { defineConfig, envField, fontProviders } from "astro/config";
+import { defineConfig } from "astro/config";
+import cloudflare from "@astrojs/cloudflare";
 import tailwindcss from "@tailwindcss/vite";
-import sitemap from "@astrojs/sitemap";
-import remarkToc from "remark-toc";
-import remarkCollapse from "remark-collapse";
-import {
-  transformerNotationDiff,
-  transformerNotationHighlight,
-  transformerNotationWordHighlight,
-} from "@shikijs/transformers";
-import { transformerFileName } from "./src/utils/transformers/fileName";
-import { rehypeLinkPreview } from "./src/utils/rehype-link-preview";
-import rehypeRaw from "rehype-raw";
 import { SITE } from "./src/config";
 
-// https://astro.build/config
+// 기본은 정적 빌드입니다. 제출과 동시에 살아나야 하는 /nb/* 라우트만
+// 각 파일에서 `export const prerender = false` 로 온디맨드로 전환합니다.
+// 랜딩/문서 페이지는 그대로 정적이라 엣지에서 즉시 응답합니다.
 export default defineConfig({
-  site: SITE.website,
+  site: SITE.url,
   trailingSlash: "never",
-  integrations: [
-    sitemap({
-      filter: page => 
-        (SITE.showArchives || !page.endsWith("/archives")) &&
-        !page.includes("/tags/"),
-    }),
-  ],
-  markdown: {
-    remarkPlugins: [remarkToc, [remarkCollapse, { test: "Table of contents" }]],
-    shikiConfig: {
-      // For more themes, visit https://shiki.style/themes
-      themes: { light: "min-light", dark: "night-owl" },
-      defaultColor: false,
-      wrap: false,
-      transformers: [
-        transformerFileName({ style: "v2", hideDot: false }),
-        transformerNotationHighlight(),
-        transformerNotationWordHighlight(),
-        transformerNotationDiff({ matchAlgorithm: "v3" }),
-      ],
-    },
-    rehypePlugins: [rehypeRaw, rehypeLinkPreview],
-  },
+  // 기본값(directory)으로 구우면 /nb/about 이 nb/about/index.html 이 되고,
+  // Cloudflare Pages 가 /nb/about → /nb/about/ 로 308 을 물립니다.
+  // canonical 은 슬래시 없는 주소라 서로 어긋나므로 파일 형식으로 굽습니다.
+  build: { format: "file" },
+  adapter: cloudflare({
+    platformProxy: { enabled: true },
+    imageService: "compile",
+  }),
   vite: {
-    // eslint-disable-next-line
-    // @ts-ignore
-    // This will be fixed in Astro 6 with Vite 7 support
-    // See: https://github.com/withastro/astro/issues/14030
     plugins: [tailwindcss()],
-    optimizeDeps: {
-      exclude: ["@resvg/resvg-js"],
-    },
-  },
-  image: {
-    responsiveStyles: true,
-    layout: "constrained",
-  },
-  env: {
-    schema: {
-      PUBLIC_GOOGLE_SITE_VERIFICATION: envField.string({
-        access: "public",
-        context: "client",
-        optional: true,
-      }),
-      PUBLIC_SUPABASE_URL: envField.string({
-        access: "public",
-        context: "client",
-      }),
-      PUBLIC_SUPABASE_ANON_KEY: envField.string({
-        access: "public",
-        context: "client",
-      }),
-    },
-  },
-  experimental: {
-    preserveScriptOrder: true,
-    fonts: [
-      {
-        name: "Google Sans Code",
-        cssVariable: "--font-google-sans-code",
-        provider: fontProviders.google(),
-        fallbacks: ["monospace"],
-        weights: [300, 400, 500, 600, 700],
-        styles: ["normal", "italic"],
-      },
-    ],
   },
 });

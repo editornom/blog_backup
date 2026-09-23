@@ -1,0 +1,29 @@
+name: 네이버 구조 변경 감시
+
+# 실제 네이버를 상대로 도는 검사입니다. 우리 잘못 없이 깨질 수 있으므로
+# PR 을 막지 않도록 CI 와 분리했습니다. 여기가 깨지면 네이버가 RSS 나
+# HTML 구조를 바꿨다는 신호이고, tests/fixtures 를 다시 떠야 합니다.
+on:
+  schedule:
+    - cron: "40 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  live:
+    name: 수집기 실동작 검사
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.11.1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm run test:live

@@ -1,0 +1,188 @@
+---
+import Base from "../../../layouts/Base.astro";
+import { db } from "../../../lib/supabase";
+import { siteUrl } from "../../../lib/env";
+import { nbBlogPath, nbPostPath, formatDate } from "../../../lib/urls";
+import { mobileSourceUrl } from "../../../lib/naver";
+import { SITE } from "../../../config";
+
+// 제출 즉시 살아있어야 하는 페이지라 빌드가 아니라 요청 시점에 만듭니다.
+export const prerender = false;
+
+/** 일시적 장애. 크롤러가 나중에 다시 오도록 503 으로 답합니다. */
+function unavailable(): Response {
+  return new Response("일시적으로 페이지를 불러올 수 없습니다.", {
+    status: 503,
+    headers: { "retry-after": "300", "content-type": "text/plain; charset=utf-8" },
+  });
+}
+
+const { blogId, logNo } = Astro.params;
+if (!blogId || !logNo || !/^\d{6,}$/.test(logNo)) return Astro.rewrite("/404");
+
+const client = db(Astro.locals);
+
+const { data: post, error: postError } = await client
+  .from("nb_posts")
+  .select("*")
+  .eq("blog_id", blogId)
+  .eq("log_no", logNo)
+  .eq("status", "live")
+  .maybeSingle();
+
+// DB 장애를 404 로 내보내면 이미 색인된 페이지가 통째로 색인 해제될 수 있습니다.
+// "없는 글"과 "지금 못 읽는 글"은 반드시 다른 상태코드로 구분합니다.
+if (postError) return unavailable();
+if (!post) return Astro.rewrite("/404");
+
+const { data: blog, error: blogError } = await client
+  .from("nb_blogs")
+  .select("blog_id, nickname, status")
+  .eq("blog_id", blogId)
+  .maybeSingle();
+
+if (blogError) return unavailable();
+// 검증이 풀렸거나 차단된 블로그의 글은 더 이상 노출하지 않습니다.
+if (!blog || blog.status !== "verified") return Astro.rewrite("/404");
+
+// 같은 블로그의 다른 글로 내부 링크를 걸어 크롤러가 이 페이지에서 멈추지 않게 합니다.
+const { data: siblings } = await client
+  .from("nb_posts")
+  .select("log_no, title, published_at")
+  .eq("blog_id", blogId)
+  .eq("status", "live")
+  .neq("log_no", logNo)
+  .order("published_at", { ascending: false, nullsFirst: false })
+  .limit(8);
+
+const base = siteUrl(Astro.locals);
+const path = nbPostPath(blogId, logNo);
+const blogName = blog.nickname ?? blogId;
+const publishedLabel = formatDate(post.published_at);
+
+// Article 이 아니라 WebPage 로 표시합니다. 이 페이지는 원문이 아니라
+// 원문을 가리키는 요약 페이지이고, isBasedOn 으로 출처를 명시합니다.
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: post.title,
+  description: post.excerpt ?? undefined,
+  url: `${base}${path}`,
+  inLanguage: "ko",
+  isBasedOn: post.source_url,
+  datePublished: post.published_at ?? undefined,
+  dateModified: post.updated_at,
+  primaryImageOfPage: post.thumbnail ?? undefined,
+  author: { "@type": "Person", name: blogName, url: `https://blog.naver.com/${blogId}` },
+  publisher: { "@type": "Organization", name: SITE.name, url: base },
+  breadcrumb: {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "색인 목록", item: `${base}/nb` },
+      { "@type": "ListItem", position: 2, name: blogName, item: `${base}${nbBlogPath(blogId)}` },
+      { "@type": "ListItem", position: 3, name: post.title, item: `${base}${path}` },
+    ],
+  },
+};
+
+// 엣지 캐시용. 내용이 바뀌면 제출 경로에서 다시 렌더되므로 짧게 잡아도 충분합니다.
+Astro.response.headers.set(
+  "cache-control",
+  "public, max-age=0, s-maxage=600, stale-while-revalidate=86400",
+);
+
+const description = post.excerpt
+  ? post.excerpt.slice(0, 155)
+  : `${blogName}의 네이버 블로그 글 "${post.title}" 요약과 원문 링크입니다.`;
+---
+
+<Base
+  title={post.title}
+  description={description}
+  canonicalPath={path}
+  ogImage={post.thumbnail}
+  jsonLd={jsonLd}
+>
+  <nav aria-label="위치" class="mb-6 text-sm text-muted">
+    <a href="/nb" class="no-underline hover:underline">색인 목록</a>
+    <span aria-hidden="true"> / </span>
+    <a href={nbBlogPath(blogId)} class="no-underline hover:underline">{blogName}</a>
+  </nav>
+
+  <article>
+    <h1 class="m-0 text-2xl font-bold leading-snug sm:text-3xl">{post.title}</h1>
+
+    <p class="mt-3 flex flex-wrap gap-x-3 gap-y-1 text-sm text-muted">
+      <span>{blogName}</span>
+      {publishedLabel && <span>{publishedLabel}</span>}
+      {post.category && <span>{post.category}</span>}
+    </p>
+
+    {
+      post.thumbnail && (
+        <img
+          src={post.thumbnail}
+          alt=""
+          loading="lazy"
+          decoding="async"
+          referrerpolicy="no-referrer"
+          class="mt-6 w-full rounded-lg border border-line object-cover"
+        />
+      )
+    }
+
+    {post.excerpt && <p class="mt-6 text-base leading-relaxed">{post.excerpt}</p>}
+
+    <div class="mt-8 rounded-lg border border-line bg-accent-soft p-5">
+      <p class="m-0 text-sm text-muted">
+        이 페이지는 요약입니다. 전체 내용은 네이버 블로그 원문에서 확인하세요.
+      </p>
+      <p class="m-0 mt-3">
+        <a
+          href={post.source_url}
+          class="inline-block rounded-md bg-accent px-4 py-2 font-semibold text-white no-underline"
+        >
+          원문 보기 →
+        </a>
+      </p>
+      <p class="m-0 mt-3 text-sm break-all text-muted">
+        원문 주소: <a href={post.source_url} class="underline">{post.source_url}</a>
+        <span aria-hidden="true"> · </span>
+        <a href={mobileSourceUrl({ blogId, logNo })} class="underline">모바일</a>
+      </p>
+    </div>
+
+    {
+      post.tags && post.tags.length > 0 && (
+        <p class="mt-6 flex flex-wrap gap-2 text-sm text-muted">
+          {post.tags.map(tag => (
+            <span class="rounded-full border border-line px-2 py-0.5">#{tag}</span>
+          ))}
+        </p>
+      )
+    }
+  </article>
+
+  {
+    siblings && siblings.length > 0 && (
+      <section class="mt-12 border-t border-line pt-8">
+        <h2 class="m-0 text-lg font-semibold">{blogName}의 다른 글</h2>
+        <ul class="mt-4 list-none space-y-2 p-0">
+          {siblings.map(sibling => (
+            <li>
+              <a href={nbPostPath(blogId, sibling.log_no)} class="no-underline hover:underline">
+                {sibling.title}
+              </a>
+            </li>
+          ))}
+        </ul>
+        <p class="mt-4">
+          <a href={nbBlogPath(blogId)} class="text-sm underline">
+            {blogName}의 글 전체 보기
+          </a>
+        </p>
+      </section>
+    )
+  }
+</Base>

@@ -1,0 +1,26 @@
+name: RSS 동기화
+
+on:
+  schedule:
+    # 6시간마다. 네이버 RSS 는 최근 50개만 주므로, 하루 50편 넘게 쓰는
+    # 블로그가 생기면 주기를 줄여야 글이 새지 않습니다.
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: /api/sync 호출
+        run: |
+          response=$(curl -sS -w '\n%{http_code}' -X POST \
+            -H "authorization: Bearer ${{ secrets.ADMIN_TOKEN }}" \
+            "${{ vars.SITE_URL || 'https://editornom.com' }}/api/sync")
+          body=$(echo "$response" | head -n -1)
+          status=$(echo "$response" | tail -n 1)
+          echo "$body"
+          if [ "$status" != "200" ]; then
+            echo "동기화 실패 (HTTP $status)"
+            exit 1
+          fi

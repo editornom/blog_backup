@@ -1,6 +1,0 @@
-https://www.boannews.com/media/news_rss.xml
-https://rss.etnews.com/Section902.xml
-https://techcrunch.com/feed/
-https://www.theverge.com/rss/index.xml
-https://feeds.feedburner.com/kakao-tech
-https://d2.naver.com/naverd2.rss

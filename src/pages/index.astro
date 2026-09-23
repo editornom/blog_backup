@@ -1,67 +1,184 @@
 ---
-import { getCollection } from "astro:content";
-import Layout from "@/layouts/Layout.astro";
-import Header from "@/components/Header.astro";
-import Footer from "@/components/Footer.astro";
-import BentoGrid from "@/components/BentoGrid.astro";
-import getSortedPosts from "@/utils/getSortedPosts";
+import Base from "../layouts/Base.astro";
+import { SITE, LIMITS } from "../config";
 
-const posts = await getCollection("blog", ({ id }) => 
-  id.replace(/\\/g, "/").startsWith("ko/")
-);
-
-const sortedPosts = getSortedPosts(posts);
-
-const normalPosts = sortedPosts.filter(p => p.id.replace(/\\/g, "/").includes("posts/"));
-
-const bentoRow1 = normalPosts.slice(0, 4);
-const bentoRow2 = normalPosts.slice(4, 8);
+// 랜딩은 DB 를 보지 않으므로 빌드 시점에 굽습니다. 엣지에서 정적으로 나갑니다.
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: SITE.name,
+  url: SITE.url,
+  description: SITE.description,
+  inLanguage: "ko",
+};
 ---
 
-<Layout>
-  <script is:inline>
-    // 브라우저 언어 감지 자동 리다이렉트 (복구됨)
-    if (window.location.pathname === '/' || window.location.pathname === '') {
-      const lang = navigator.language || navigator.userLanguage;
-      const shortLang = lang ? lang.split('-')[0].toLowerCase() : 'en';
-      
-      let target = '/en';
-      if (shortLang === 'ko') target = '/ko';
-      else if (shortLang === 'ja') target = '/jp';
-      else if (shortLang === 'zh') target = '/cn';
-      
-      window.location.replace(target);
-    }
-  </script>
-  <Header />
-  <main id="main-content" data-layout="index" class="app-layout">
-    {
-      bentoRow1.length > 0 && (
-        <section id="bento-row1" class:list={["pt-8"]}>
-          <BentoGrid posts={bentoRow1} />
-        </section>
-      )
-    }
+<Base title={SITE.name} description={SITE.description} canonicalPath="/" jsonLd={jsonLd}>
+  <h1 class="m-0 text-3xl font-bold tracking-tight">{SITE.tagline}</h1>
+  <p class="mt-4 text-lg text-muted">
+    네이버 블로그 글 주소를 넣으면 구글·빙이 수집할 수 있는 주소가 만들어지고, 그 페이지가 원문으로
+    링크를 걸어줍니다.
+  </p>
 
-    {
-      bentoRow2.length > 0 && (
-        <section id="bento-row2" class:list={["mt-[10px] pb-6"]}>
-          <BentoGrid posts={bentoRow2} />
-        </section>
-      )
-    }
+  <form id="submit-form" class="mt-8 flex flex-col gap-3 sm:flex-row">
+    <label class="sr-only" for="url">네이버 블로그 글 주소</label>
+    <input
+      id="url"
+      name="url"
+      type="url"
+      required
+      placeholder="https://blog.naver.com/아이디/223456789012"
+      class="flex-1 rounded-md border border-line bg-transparent px-4 py-3 text-base"
+    />
+    <button
+      type="submit"
+      class="rounded-md bg-accent px-6 py-3 font-semibold text-white disabled:opacity-60"
+    >
+      등록
+    </button>
+  </form>
 
-  </main>
-  <Footer />
-</Layout>
+  <p id="submit-result" class="mt-4 text-sm" role="status" aria-live="polite"></p>
+
+  <section class="mt-14">
+    <h2 class="m-0 text-xl font-semibold">왜 네이버 블로그는 구글에 안 뜨나</h2>
+    <p class="mt-3 text-muted">
+      흔히 "네이버가 구글 크롤링을 막아서"라고들 하지만, 실제
+      <code>blog.naver.com/robots.txt</code>는 구글봇을 막지 않습니다. 진짜 이유는 셋입니다.
+    </p>
+    <ol class="mt-4 space-y-2 pl-5 text-muted">
+      <li>
+        데스크톱 글 주소가 <strong>iframe 껍데기</strong>라, 크롤러가 받아가는 HTML에 본문이 거의
+        없습니다.
+      </li>
+      <li>
+        네이버 블로그는 <strong>외부 사이트에서 걸린 링크가 거의 없어</strong> 구글이 글의 존재를 알거나
+        자주 방문할 이유를 못 찾습니다.
+      </li>
+      <li>
+        <code>blog.naver.com</code>은 내 도메인이 아니라 <strong
+          >구글 서치콘솔에 등록할 수 없고</strong
+        >, 사이트맵 제출이나 색인 요청 수단이 아예 없습니다.
+      </li>
+    </ol>
+    <p class="mt-4 text-muted">
+      이 서비스는 2번과 3번을 대신 해결합니다. 색인 가능한 도메인에 요약 페이지를 만들어 원문으로
+      링크를 걸고, 그 페이지를 사이트맵과 IndexNow로 검색엔진에 알립니다.
+    </p>
+  </section>
+
+  <section class="mt-12">
+    <h2 class="m-0 text-xl font-semibold">등록 절차</h2>
+    <ol class="mt-4 space-y-3 pl-5">
+      <li>
+        <strong>블로그 등록 요청.</strong> 운영자가 블로그를 등록하고 연동코드를 발급합니다.
+      </li>
+      <li>
+        <strong>연동코드 확인.</strong> 블로그 소개글이나 최근 글에 코드를 넣으면 소유권이 확인됩니다.
+        본인 블로그만 올릴 수 있게 하는 장치입니다.
+      </li>
+      <li>
+        <strong>글 등록.</strong> 글 주소를 넣거나, RSS로 최근 50개를 한 번에 올립니다.
+      </li>
+    </ol>
+    <p class="mt-4 text-sm text-muted">
+      자세한 운영 원칙과 삭제 요청 방법은 <a href="/nb/about" class="underline">안내</a>에 있습니다.
+    </p>
+  </section>
+
+  <section class="mt-12">
+    <h2 class="m-0 text-xl font-semibold">무엇을 게시하고, 무엇을 게시하지 않나</h2>
+    <p class="mt-3 text-muted">
+      게시하는 것은 <strong
+        >제목, {LIMITS.EXCERPT_MAX}자 이내 요약, 대표 이미지, 발행일, 태그, 원문 링크</strong
+      >입니다. 요약은 네이버가 RSS로 공개하는 발췌를 그대로 씁니다.
+    </p>
+    <p class="mt-3 text-muted">
+      게시하지 않는 것은 <strong>본문 전체</strong>입니다. 저장조차 하지 않습니다. 원문을 통째로
+      복사해 두면 색인은 잘 되겠지만 구글 스팸정책의 scraped content에 해당하고, 원문과 복사본이
+      같은 검색어를 두고 경쟁하면서 정작 원문이 밀려나는 일이 생깁니다. 이 서비스의 목적은 원문을
+      대체하는 게 아니라 원문으로 보내는 것이라, 요약 길이를 의도적으로 묶어 두었습니다.
+    </p>
+  </section>
+
+  <section class="mt-12">
+    <h2 class="m-0 text-xl font-semibold">색인까지 얼마나 걸리나</h2>
+    <p class="mt-3 text-muted">
+      정직하게 말하면 <strong>보장할 수 없습니다.</strong> 등록하면 페이지는 즉시 만들어지고 사이트맵에
+      올라가지만, 실제로 색인할지와 언제 할지는 검색엔진이 정합니다.
+    </p>
+    <ul class="mt-4 space-y-2 pl-5 text-muted">
+      <li>
+        <strong>빙·얀덱스</strong>는 IndexNow 규격을 받아, 등록과 동시에 크롤 예약이 걸립니다. 보통
+        빠릅니다.
+      </li>
+      <li>
+        <strong>구글</strong>은 IndexNow를 쓰지 않습니다. 사이트맵의 갱신 시각과 사이트 안의 링크
+        구조만 신호로 쓰이므로 며칠에서 몇 주까지 걸릴 수 있습니다.
+      </li>
+      <li>
+        급한 글은 서치콘솔의 <strong>URL 검사 → 색인 생성 요청</strong>으로 수동으로 밀어 넣는 편이
+        가장 빠릅니다. 특히 초반에는 사이트 자체의 크롤 빈도가 낮아 이 방법이 유효합니다.
+      </li>
+    </ul>
+  </section>
+
+  <section class="mt-12">
+    <h2 class="m-0 text-xl font-semibold">네이버 블로그 쪽에서 같이 해두면 좋은 것</h2>
+    <ul class="mt-4 space-y-2 pl-5 text-muted">
+      <li>
+        블로그 관리 &gt; 기본 설정에서 <strong>RSS 공개</strong>와
+        <strong>검색엔진 수집 허용</strong>을 켜두세요. RSS가 막혀 있으면 이 서비스가 글을 읽지
+        못합니다.
+      </li>
+      <li>
+        글 제목에 검색어를 자연스럽게 넣으세요. 이 서비스가 만드는 페이지의 제목은 원문 제목을
+        그대로 씁니다.
+      </li>
+      <li>
+        첫 문단이 곧 요약이 됩니다. 네이버 RSS는 본문 앞부분을 잘라 발췌로 내보내므로, 글 첫머리에
+        무슨 글인지 드러나면 검색 결과에서의 설명도 좋아집니다.
+      </li>
+    </ul>
+  </section>
+</Base>
 
 <script>
-  document.addEventListener("astro:page-load", () => {
-    const indexLayout = (document.querySelector("#main-content") as HTMLElement)
-      ?.dataset?.layout;
-    if (indexLayout) {
-      sessionStorage.setItem("backUrl", "/");
+  const form = document.querySelector<HTMLFormElement>("#submit-form");
+  const result = document.querySelector<HTMLParagraphElement>("#submit-result");
+  const button = form?.querySelector<HTMLButtonElement>("button[type=submit]");
+
+  form?.addEventListener("submit", async event => {
+    event.preventDefault();
+    if (!result || !button) return;
+
+    const url = new FormData(form).get("url");
+    button.disabled = true;
+    result.textContent = "네이버에서 글을 읽는 중…";
+    result.className = "mt-4 text-sm text-muted";
+
+    try {
+      const response = await fetch("/api/submit", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ url }),
+      });
+      const data = await response.json();
+
+      if (!response.ok || !data.ok) {
+        result.textContent = data.error ?? "등록에 실패했습니다.";
+        result.className = "mt-4 text-sm text-red-600";
+        return;
+      }
+
+      result.innerHTML = `등록됐습니다. <a class="underline" href="${data.pageUrl}">${data.pageUrl}</a>`;
+      result.className = "mt-4 text-sm";
+      form.reset();
+    } catch {
+      result.textContent = "네트워크 오류가 났습니다. 잠시 후 다시 시도하세요.";
+      result.className = "mt-4 text-sm text-red-600";
+    } finally {
+      button.disabled = false;
     }
   });
 </script>
-

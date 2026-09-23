@@ -35,3 +35,13 @@ public/pagefind
 
 # python
 __pycache__/
+# Cloudflare 로컬 시크릿
+.dev.vars
+
+# wrangler 로컬 상태
+.wrangler/
+
+# 로컬 전용 에이전트 스캐폴딩 (사이트 코드 아님)
+.agents/
+_bmad/
+_bmad-output/

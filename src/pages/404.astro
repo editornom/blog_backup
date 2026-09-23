@@ -1,36 +1,13 @@
 ---
-import Layout from "@/layouts/Layout.astro";
-import Header from "@/components/Header.astro";
-import Footer from "@/components/Footer.astro";
-import LinkButton from "@/components/LinkButton.astro";
-import { SITE } from "@/config";
-const { pathname } = Astro.url;
-const supportedLangs = ["en", "ko", "cn", "jp"];
-const firstSegment = pathname.split("/").filter(Boolean)[0];
-const lang = supportedLangs.includes(firstSegment) ? firstSegment : (SITE.lang || "ko");
-const base = `/${lang}/`;
+import Base from "../layouts/Base.astro";
 ---
 
-<Layout title={`404 Not Found | ${SITE.title}`}>
-  <Header />
-
-  <main
-    id="main-content"
-    class="app-layout flex flex-1 items-center justify-center"
-  >
-    <div class="mb-14 flex flex-col items-center justify-center">
-      <h1 class="text-9xl font-bold text-accent">404</h1>
-      <span aria-hidden="true">¯\_(??_/¯</span>
-      <p class="mt-4 text-2xl sm:text-3xl">Page Not Found</p>
-      <LinkButton
-        href={base}
-        class="my-6 text-lg underline decoration-dashed underline-offset-8"
-      >
-        Go back home
-      </LinkButton>
-    </div>
-  </main>
-
-  <Footer />
-</Layout>
-
+<Base title="페이지를 찾을 수 없습니다" noindex={true}>
+  <h1 class="m-0 text-2xl font-bold">페이지를 찾을 수 없습니다</h1>
+  <p class="mt-3 text-muted">
+    등록되지 않았거나, 원문이 삭제·비공개로 바뀌어 내려간 글일 수 있습니다.
+  </p>
+  <p class="mt-6">
+    <a href="/nb" class="underline">색인 목록으로</a>
+  </p>
+</Base>

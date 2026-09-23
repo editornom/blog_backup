@@ -1,0 +1,81 @@
+---
+import "../styles/global.css";
+import { SITE, NB_BASE } from "../config";
+
+interface Props {
+  title: string;
+  description?: string;
+  /** 이 페이지의 정규 주소(경로). 생략하면 현재 경로를 씁니다. */
+  canonicalPath?: string;
+  ogImage?: string | null;
+  /** 색인시키면 안 되는 페이지(검색 결과, 오류 등)에서 true 로 둡니다. */
+  noindex?: boolean;
+  jsonLd?: unknown;
+}
+
+const {
+  title,
+  description = SITE.description,
+  canonicalPath,
+  ogImage = null,
+  noindex = false,
+  jsonLd,
+} = Astro.props;
+
+const site = Astro.site ?? new URL(SITE.url);
+const canonical = new URL(canonicalPath ?? Astro.url.pathname, site).toString();
+const fullTitle = title === SITE.name ? title : `${title} | ${SITE.name}`;
+---
+
+<!doctype html>
+<html lang={SITE.lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex, follow" />}
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:locale" content={SITE.locale} />
+    {ogImage && <meta property="og:image" content={ogImage} />}
+    <meta name="twitter:card" content={ogImage ? "summary_large_image" : "summary"} />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="sitemap" href="/sitemap.xml" />
+
+    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+  </head>
+  <body class="min-h-dvh">
+    <header class="border-b border-line">
+      <div class="mx-auto flex max-w-3xl items-center justify-between gap-4 px-4 py-4">
+        <a href="/" class="font-semibold tracking-tight no-underline">{SITE.name}</a>
+        <nav class="flex gap-4 text-sm text-muted">
+          <a href={NB_BASE} class="no-underline hover:text-ink">색인 목록</a>
+          <a href={`${NB_BASE}/about`} class="no-underline hover:text-ink">안내</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-3xl px-4 py-8">
+      <slot />
+    </main>
+
+    <footer class="mt-16 border-t border-line">
+      <div class="mx-auto max-w-3xl px-4 py-6 text-sm text-muted">
+        <p class="m-0">
+          이 사이트는 네이버 블로그 글의 <strong>제목·요약·원문 링크</strong>만 게시합니다. 본문은
+          복제하지 않으며, 모든 저작권은 원저작자에게 있습니다.
+        </p>
+        <p class="m-0 mt-2">
+          <a href={`${NB_BASE}/about`} class="underline">삭제 요청 및 운영 원칙</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

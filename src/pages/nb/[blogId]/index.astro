@@ -1,0 +1,126 @@
+---
+import Base from "../../../layouts/Base.astro";
+import { db } from "../../../lib/supabase";
+import { siteUrl } from "../../../lib/env";
+import { nbBlogPath, nbPostPath, formatDate } from "../../../lib/urls";
+import { LIMITS } from "../../../config";
+
+export const prerender = false;
+
+const { blogId } = Astro.params;
+if (!blogId) return Astro.rewrite("/404");
+
+const page = Math.max(1, Number(Astro.url.searchParams.get("page") ?? "1") || 1);
+const from = (page - 1) * LIMITS.LIST_PAGE_SIZE;
+const to = from + LIMITS.LIST_PAGE_SIZE - 1;
+
+const client = db(Astro.locals);
+
+const { data: blog, error: blogError } = await client
+  .from("nb_blogs")
+  .select("blog_id, nickname, intro, status")
+  .eq("blog_id", blogId)
+  .maybeSingle();
+
+// DB 장애와 "없는 블로그"를 구분합니다. 장애를 404 로 내보내면 색인이 날아갑니다.
+if (blogError) {
+  return new Response("일시적으로 페이지를 불러올 수 없습니다.", {
+    status: 503,
+    headers: { "retry-after": "300", "content-type": "text/plain; charset=utf-8" },
+  });
+}
+if (!blog || blog.status !== "verified") return Astro.rewrite("/404");
+
+const { data: posts, count } = await client
+  .from("nb_posts")
+  .select("log_no, title, excerpt, thumbnail, published_at", { count: "exact" })
+  .eq("blog_id", blogId)
+  .eq("status", "live")
+  .order("published_at", { ascending: false, nullsFirst: false })
+  .range(from, to);
+
+const total = count ?? 0;
+const lastPage = Math.max(1, Math.ceil(total / LIMITS.LIST_PAGE_SIZE));
+// 범위를 벗어난 페이지 번호는 얇은 빈 페이지가 색인되지 않도록 404 로 돌립니다.
+if (page > lastPage && total > 0) return Astro.rewrite("/404");
+
+const base = siteUrl(Astro.locals);
+const blogName = blog.nickname ?? blogId;
+const path = nbBlogPath(blogId);
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: `${blogName} 글 목록`,
+  url: `${base}${path}`,
+  inLanguage: "ko",
+  about: { "@type": "Blog", name: blogName, url: `https://blog.naver.com/${blogId}` },
+};
+
+Astro.response.headers.set(
+  "cache-control",
+  "public, max-age=0, s-maxage=600, stale-while-revalidate=86400",
+);
+---
+
+<Base
+  title={`${blogName} 글 목록`}
+  description={`${blogName}(네이버 블로그 ${blogId})의 글 ${total}건 요약과 원문 링크 모음입니다.`}
+  canonicalPath={page === 1 ? path : `${path}?page=${page}`}
+  jsonLd={jsonLd}
+>
+  <nav aria-label="위치" class="mb-6 text-sm text-muted">
+    <a href="/nb" class="no-underline hover:underline">색인 목록</a>
+  </nav>
+
+  <h1 class="m-0 text-2xl font-bold">{blogName}</h1>
+  {blog.intro && <p class="mt-2 text-muted">{blog.intro}</p>}
+  <p class="mt-2 text-sm text-muted">
+    글 {total}건 ·
+    <a href={`https://blog.naver.com/${blogId}`} class="underline">네이버 블로그 바로가기</a>
+  </p>
+
+  {
+    posts && posts.length > 0 ? (
+      <ul class="mt-8 list-none space-y-6 p-0">
+        {posts.map(post => (
+          <li class="border-b border-line pb-6 last:border-0">
+            <a href={nbPostPath(blogId, post.log_no)} class="no-underline">
+              <h2 class="m-0 text-lg font-semibold hover:underline">{post.title}</h2>
+            </a>
+            {post.published_at && (
+              <p class="m-0 mt-1 text-sm text-muted">{formatDate(post.published_at)}</p>
+            )}
+            {post.excerpt && <p class="m-0 mt-2 line-clamp-3 text-sm text-muted">{post.excerpt}</p>}
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p class="mt-8 text-muted">아직 수집된 글이 없습니다.</p>
+    )
+  }
+
+  {
+    lastPage > 1 && (
+      <nav aria-label="페이지" class="mt-8 flex justify-between text-sm">
+        {page > 1 ? (
+          <a href={page === 2 ? path : `${path}?page=${page - 1}`} class="underline">
+            ← 이전
+          </a>
+        ) : (
+          <span />
+        )}
+        <span class="text-muted">
+          {page} / {lastPage}
+        </span>
+        {page < lastPage ? (
+          <a href={`${path}?page=${page + 1}`} class="underline">
+            다음 →
+          </a>
+        ) : (
+          <span />
+        )}
+      </nav>
+    )
+  }
+</Base>
