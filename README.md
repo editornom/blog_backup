@@ -36,7 +36,7 @@ pnpm run indexnow   # 사이트 전체 URL을 IndexNow로 통보 (INDEXNOW_KEY �
 
 ## 배포
 
-`main`에 푸시하거나 6시간마다 [`deploy.yml`](.github/workflows/deploy.yml)이 수집 → 빌드 →
+`main`에 푸시하거나 매일 한 번 [`deploy.yml`](.github/workflows/deploy.yml)이 수집 → 빌드 →
 Cloudflare Pages 배포 → IndexNow 통보를 실행합니다. 필요한 GitHub Secrets:
 
 - `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`

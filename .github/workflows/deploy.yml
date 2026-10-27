@@ -4,8 +4,8 @@ on:
   push:
     branches: [main]
   schedule:
-    # 6시간마다. 네이버 RSS 는 최근 50개만 주므로 하루 50편 넘게 쓰는 블로그가 생기면 주기를 줄이세요.
-    - cron: "17 */6 * * *"
+    # 하루 한 번(KST 04:17). 네이버 RSS 는 최근 50개만 주므로 하루 50편 넘게 쓰는 블로그가 생기면 주기를 줄이세요.
+    - cron: "17 19 * * *"
   workflow_dispatch:
 
 permissions:
