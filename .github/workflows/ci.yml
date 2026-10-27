@@ -1,0 +1,45 @@
+name: CI
+
+permissions:
+  contents: read
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: 검사 및 빌드
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.11.1
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: 코드 포맷 확인
+        run: pnpm run format:check
+
+      # 저장된 샘플로만 도는 오프라인 검사입니다.
+      # 네이버 사정으로 CI 가 빨개지지 않도록 라이브 검사는 여기 넣지 않습니다.
+      - name: 파서 검사
+        run: pnpm run test
+
+      - name: 타입 검사 및 빌드
+        run: pnpm run build

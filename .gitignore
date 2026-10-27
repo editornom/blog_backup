@@ -1,0 +1,47 @@
+# build output
+dist/
+
+# generated types
+.astro/
+
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+output.log
+build_log.txt
+
+# 작업용 임시 디렉터리 (커밋하지 않습니다)
+tmp/
+scratch/
+
+# environment variables
+.env
+.env.production
+
+# macOS-specific files
+.DS_Store
+
+# jetbrains setting folder
+.idea/
+
+# pagefind
+
+public/pagefind
+
+# python
+__pycache__/
+# Cloudflare 로컬 시크릿
+.dev.vars
+
+# wrangler 로컬 상태
+.wrangler/
+
+# 로컬 전용 에이전트 스캐폴딩 (사이트 코드 아님)
+.agents/
+_bmad/
+_bmad-output/

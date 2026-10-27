@@ -1,0 +1,11 @@
+dist
+.astro
+.wrangler
+node_modules
+pnpm-lock.yaml
+scratch
+_bmad
+_bmad-output
+.agent
+.agents
+.vscode
