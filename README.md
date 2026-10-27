@@ -12,7 +12,7 @@
 | `/`                    | 블로그 7곳 소개 + 최근 글                    |
 | `/nb/{blogId}`         | 블로그별 글 목록                             |
 | `/nb/{blogId}/{logNo}` | 글 요약 페이지 (원문 링크 포함)              |
-| `/nb/about`            | 운영 원칙·삭제 요청 안내                     |
+| `/nb/about`            | 운영 원칙 안내                               |
 | `/sitemap.xml`         | 사이트맵                                     |
 | `/{INDEXNOW_KEY}.txt`  | IndexNow 키 파일 (환경변수가 있을 때만 생성) |
 
