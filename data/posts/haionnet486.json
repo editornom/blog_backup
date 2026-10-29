@@ -1,6 +1,6 @@
 {
   "blogId": "haionnet486",
-  "updatedAt": "2026-10-27T06:43:52.125Z",
+  "updatedAt": "2026-10-29T05:53:29.858Z",
   "posts": [
     {
       "blogId": "haionnet486",
@@ -1768,6 +1768,69 @@
       "status": "live",
       "firstSeenAt": "2026-10-27T06:43:52.125Z",
       "updatedAt": "2026-10-27T06:43:52.125Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haionnet486",
+      "logNo": "224457724301",
+      "title": "직원이 ChatGPT에 회사 정보를 입력했다면 실제 사례로 알아보는 AI 보안",
+      "excerpt": "업무 중에 보고서 초안이나 코드 오류를 빠르게 확인하려고 ChatGPT 같은 생성형 AI에 회사 자료를 붙여넣어 본 적 있으신가요? 바쁠 때는 아무 생각 없이 손이 먼저 움직이기 마련인데, 이렇게 입력된 정보가 회사 바깥으로 새어나가는 통로가 될 수 있다는 사실은 생각보다 가볍게 넘기기 어려운 문제입니다. 실제로 몇 년 전, 한 글로벌 기업에서 직원들이 생성형 AI에 회사 내부 정보를 입력했다가 뒤늦게 문제가 된 사례가 있었습니다. 오늘은 그 사례를 통해 AI 도구를 쓸 때 어떤 점을 조심해야 하는지, 그리고 네트워크 보안 측면에서는 무엇을 함께 점검해볼 수 있는지 하이온넷과 함께 짚어보겠습니다. 실제로 있었던 일, 직원들이 Cha",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjEwMjlfNzcg/MDAxNzkzMjM4OTUzMTc0.3doUA8u5iJ_yQtYHs8QhXDzwdlt-9PHwsrLx-8Fhqv0g.P_OQ7avY56rRMifoXYdKHEEAcWTT5BPuzB2T5g0Gcjgg.JPEG/pc0040628334_l.jpg?type=w966",
+      "category": "IT관련 정보글",
+      "tags": [
+        "AI보안",
+        "생성형AI보안",
+        "ChatGPT보안",
+        "기업정보유출",
+        "정보보안",
+        "사내보안가이드라인",
+        "UTM",
+        "통합보안솔루션",
+        "네트워크보안",
+        "데이터유출방지",
+        "보안정책",
+        "기업보안",
+        "AI활용가이드",
+        "정보보호",
+        "하이온넷",
+        "사내정보관리",
+        "보안담당자",
+        "업무보안",
+        "AI리스크관리",
+        "기업네트워크보안"
+      ],
+      "publishedAt": "2026-10-29T04:16:57.000Z",
+      "sourceUrl": "https://blog.naver.com/haionnet486/224457724301",
+      "status": "live",
+      "firstSeenAt": "2026-10-29T05:53:29.858Z",
+      "updatedAt": "2026-10-29T05:53:29.858Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haionnet486",
+      "logNo": "224455709642",
+      "title": "학원 유해사이트 차단 일반 공유기로 못 막는 VPN 우회 UTM 보안 필수!",
+      "excerpt": "일반 공유기로는 차단 불가! 학원 유해사이트 perfect 차단, 왜 UTM 보안장비가 필수일까요? 혹시 학원 내 PC나 Wi-Fi망에서 학생들의 유해사이트 접속 및 딴짓(웹툰, 게임, 성인 사이트, SNS 등)을 막기 위해 일반 Wi-Fi 공유기 설정으로 차단하고 계신가요? 안타깝지만 결론부터 말씀드리면, 일반 공유기를 통한 차단은 학생들의 접속 우회 시도를 절대로 막을 수 없으며, 차단 성능 자체에도 치명적인 한계가 존재합니다. ★메인 페이지만 차단될 뿐, 서브 페이지 차단 불가!★ 공유기의 단순 URL 필터링은 대표 도메인(example.com) 정도만 단순 식별하는 수준입니다. 동일한 도메인 구조 내에서 운영되는 특정 서브 페이지, CDN 경로, HTTPS",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjEwMjdfNzcg/MDAxNzkzMDkyOTE2Mzg2.G0-FxeI8op0SdyfHF4ALLI6qkQw0x57BCWn-lh-yPtcg.xpM-OzXA-UxUXTYv2BOx3xijflTzlgxyb3XAQCEfLogg.PNG/%C0%AF%C7%D8%BB%E7%C0%CC%C6%AE%C2%F7%B4%DC_%BD%E6%B3%D7%C0%CF_%281%29.png?type=w966",
+      "category": "유해사이트차단",
+      "tags": [
+        "VPN",
+        "유해사이트차단",
+        "UTM",
+        "학원유해사이트차단",
+        "학원VPN차단",
+        "학원인터넷차단",
+        "화이트리스트",
+        "블랙리스트",
+        "하이온넷",
+        "vpn우회차단",
+        "vpn완벽차단"
+      ],
+      "publishedAt": "2026-10-27T22:30:00.000Z",
+      "sourceUrl": "https://blog.naver.com/haionnet486/224455709642",
+      "status": "live",
+      "firstSeenAt": "2026-10-29T05:53:29.858Z",
+      "updatedAt": "2026-10-29T05:53:29.858Z",
       "removedAt": null
     }
   ]
