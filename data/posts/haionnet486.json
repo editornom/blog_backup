@@ -1,6 +1,6 @@
 {
   "blogId": "haionnet486",
-  "updatedAt": "2026-10-29T06:08:35.530Z",
+  "updatedAt": "2026-10-29T23:21:04.267Z",
   "posts": [
     {
       "blogId": "haionnet486",
@@ -3586,6 +3586,32 @@
       "status": "live",
       "firstSeenAt": "2026-10-29T06:08:35.530Z",
       "updatedAt": "2026-10-29T06:08:35.530Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haionnet486",
+      "logNo": "224457921610",
+      "title": "기업용 UTM업체추천 판단 기준과 도입 시 체크리스트",
+      "excerpt": "UTM 도입 시 체크리스트, 먼저 확인해보세요! ▶ 초기 고가 장비 구매 부담을 낮추고 월정액으로 합리적 운용이 가능한 [임대(렌탈) 서비스] 및 [안정화기간]이 지원되는지 ▶ 사내 전산 담당자 없이도 네트워크 전문 엔지니어의 [유지보수] 및 [기술지원]을 받을 수 있는지 ▶ 야간이나 주말 및 공휴일에도 사내 네트워크 위협을 끊임없이 감시하는 [24시간 실시간 모니터링 및 관제]가 작동하는지 ▶ ISMS 인증, AEO인증 등 개인정보보호법 등 [각종 업종별 보안심사 대비 및 법적 기준]을 만족하는 맞춤형 솔루션 제공이 가능하는지 회사 규모가 늘어나거나 사내 네트워크에 연결되는 기기가 많아지면 가장 먼저 직면하는 문제가 바로 '보",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjEwMjlfMTA4/MDAxNzkzMjU2OTM0NzM2.RkpMKN_1JB6c_ChF10_wUnrAlrmRo-e98tGdmP3TDQQg.oMz1QNK8zVT9R7pPydCjac91D-QCNyW0rON803Pem5Qg.JPEG/tc07060000212_l_%281%29.jpg?type=w966",
+      "category": "UTM서비스",
+      "tags": [
+        "UTM",
+        "기업보안",
+        "네트워크보안",
+        "UTM임대",
+        "ISMS인증",
+        "네트워크관제",
+        "기업용방화벽",
+        "하이온넷",
+        "aeo보안심사대비",
+        "통합보안솔루션"
+      ],
+      "publishedAt": "2026-10-29T07:00:51.000Z",
+      "sourceUrl": "https://blog.naver.com/haionnet486/224457921610",
+      "status": "live",
+      "firstSeenAt": "2026-10-29T23:21:04.267Z",
+      "updatedAt": "2026-10-29T23:21:04.267Z",
       "removedAt": null
     }
   ]
