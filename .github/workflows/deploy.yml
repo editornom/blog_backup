@@ -48,7 +48,7 @@ jobs:
           INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
 
       - name: Cloudflare Pages 배포
-        run: pnpm dlx wrangler@4 pages deploy dist --project-name=editornom
+        run: pnpm dlx wrangler@4 pages deploy dist --project-name=blog
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
