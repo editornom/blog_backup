@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "astro dev",
     "fetch": "tsx scripts/fetch.ts",
+    "backfill": "tsx scripts/backfill.ts",
     "indexnow": "tsx scripts/indexnow.ts",
     "build": "astro check && astro build",
     "preview": "astro build && astro preview",
