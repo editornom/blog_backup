@@ -1,6 +1,6 @@
 {
   "blogId": "parkbeom",
-  "updatedAt": "2026-10-29T06:12:44.167Z",
+  "updatedAt": "2026-10-30T23:00:40.539Z",
   "posts": [
     {
       "blogId": "parkbeom",
@@ -3572,6 +3572,33 @@
       "status": "live",
       "firstSeenAt": "2026-10-29T06:12:44.167Z",
       "updatedAt": "2026-10-29T06:12:44.167Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "parkbeom",
+      "logNo": "224458280095",
+      "title": "만렙 마케터가 고집하는 블로그IP 꼭 써야할까",
+      "excerpt": "블로그 운영에 블로그IP가 정말 필요할까요? 글을 잘 쓰고 사진을 예쁘게 편집하고 키워드를 적절히 배치하는 것만으로도 신경 쓸 일이 많다 보니, 접속 환경까지 따로 관리해야 하는지는 선뜻 판단이 서지 않는 질문입니다. 여러 장소를 오가며 포스팅하거나 여러 브랜드의 블로그를 함께 관리하다 보면 생각지 못했던 부분, 바로 인터넷 접속 환경에서 문제가 생기기도 합니다. 집에서 글을 쓰다 카페에서 수정하고 사무실과 외부를 오가며 작업하면 접속할 때 쓰이는 IP주소가 계속 달라질 수 있기 때문인데요. 오늘은 쿨아이피가 제공하는 블로그IP를 따로 관리하는 이유와 어떤 상품을 선택하면 좋을지 정리해 보겠습니다. 모든 블로거에게",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjEwMjlfNDIg/MDAxNzkzMjc4MTMyODc5.Wn1iheD-gWo7TysLDP7aaBdjsav3R9lELwUQvw2ZMqsg.PlzBxnWX9_oG_s8TRDjdijQ_eL1HQGwzprFlFMTkUqwg.PNG/%B4%EB%C7%A5%C0%CC%B9%CC%C1%F6.png?type=w966",
+      "category": "통신사아이피",
+      "tags": [
+        "블로그IP",
+        "블로그아이피",
+        "KT고정IP",
+        "통신사아이피",
+        "블로그VPN",
+        "고정IP",
+        "클린IP",
+        "마케팅대행사",
+        "IP관리",
+        "KT백본망",
+        "쿨아이피"
+      ],
+      "publishedAt": "2026-10-30T00:00:00.000Z",
+      "sourceUrl": "https://blog.naver.com/parkbeom/224458280095",
+      "status": "live",
+      "firstSeenAt": "2026-10-30T23:00:40.539Z",
+      "updatedAt": "2026-10-30T23:00:40.539Z",
       "removedAt": null
     }
   ]

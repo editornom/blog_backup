@@ -1,6 +1,6 @@
 {
   "blogId": "haiproxy",
-  "updatedAt": "2026-10-29T06:15:19.040Z",
+  "updatedAt": "2026-10-30T23:00:41.200Z",
   "posts": [
     {
       "blogId": "haiproxy",
@@ -4107,6 +4107,52 @@
       "status": "live",
       "firstSeenAt": "2026-10-29T06:15:19.040Z",
       "updatedAt": "2026-10-29T06:15:19.040Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haiproxy",
+      "logNo": "224459124879",
+      "title": "통신사아이피 필요한 5가지 이유 용도별 상품특징까지",
+      "excerpt": "연말 결산 시즌이 다가오면 한 사람이 여러 채널을 동시에 관리하는 업무량이 부쩍 늘어납니다. 블로그, 카페, SNS, 쇼핑몰, 광고 관리 도구까지 함께 운영하다 보면 계정마다 접속 환경이 섞이고, 어느 작업에서 문제가 생겼는지 파악하기 어려워지는 경우도 많은데요. 이럴 때 마케터나 대행사 실무자들이 살펴보는 것이 통신사아이피입니다. 국내 통신사 회선을 기반으로 한 접속 환경으로, 단순히 주소를 바꾸는 수준을 넘어 계정별·고객사별·업무별로 접속 조건을 정리하는 데 쓰입니다. 오늘은 하이프록시와 함께 통신사아이피가 필요한 이유와 업무 성격에 맞게 고르는 방법을 정리해 보겠습니다. 통신사아이피가 필요한 이유 1. 계정별 접",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjEwMzBfMjQ0/MDAxNzkzMzQxNzM5NzU1.BaVALDKBLq--1af-Ufj1vAdGy4I20NitT6Z0XgLGZr4g.j7jPJG19LUt0JSOLN701piBtbm1xm6Eh4Ug7m6Rsfpwg.PNG/%B4%EB%C7%A5%C0%CC%B9%CC%C1%F6.png?type=w966",
+      "category": "통신사아이피",
+      "tags": [
+        "통신사아이피",
+        "통신사IP",
+        "통신사아이피추천",
+        "통신사아이피용도",
+        "통신사아이피필요한이유",
+        "통신사아이피장점",
+        "통신사아이피특징",
+        "통신사아이피활용법",
+        "통신사아이피고르는법",
+        "통신사아이피차이",
+        "KT고정IP",
+        "KT유동IP",
+        "KT통신사아이피",
+        "KT아이피",
+        "KT고정아이피",
+        "KT유동아이피",
+        "KT백본",
+        "KT회선",
+        "KTIP추천",
+        "KT고정IP용도",
+        "고정IP",
+        "고정아이피",
+        "유동IP",
+        "유동아이피",
+        "IP변경",
+        "IP관리",
+        "아이피관리",
+        "아이피분리",
+        "아이피환경",
+        "IP환경관리"
+      ],
+      "publishedAt": "2026-10-30T06:34:53.000Z",
+      "sourceUrl": "https://blog.naver.com/haiproxy/224459124879",
+      "status": "live",
+      "firstSeenAt": "2026-10-30T23:00:41.200Z",
+      "updatedAt": "2026-10-30T23:00:41.200Z",
       "removedAt": null
     }
   ]

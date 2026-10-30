@@ -1,6 +1,6 @@
 {
   "blogId": "momoip1",
-  "updatedAt": "2026-10-29T06:14:06.774Z",
+  "updatedAt": "2026-10-30T23:00:40.865Z",
   "posts": [
     {
       "blogId": "momoip1",
@@ -3399,6 +3399,32 @@
       "status": "live",
       "firstSeenAt": "2026-10-29T06:14:06.774Z",
       "updatedAt": "2026-10-29T06:14:06.774Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "momoip1",
+      "logNo": "224458757148",
+      "title": "겨울맞이 미리 월동 준비하기 보일러 습도 관리 완벽 가이",
+      "excerpt": "아침저녁으로 제법 쌀쌀한 바람이 불면서 겨울이 가까워지고 있다는 게 느껴지는데요. 얼마 전까지만 해도 창문을 열어놓고 생활했는데 이제는 아침에 일어나면 찬 공기부터 느껴지더라고요. 이맘때가 되면 슬슬 신경 쓰이는 것이 바로 겨울철 난방비와 실내 습도 관리예요. 특히 겨울에는 보일러를 자주 사용하다 보니 가스비 부담도 커지고, 실내 공기가 건조해져 감기나 피부 건조증 때문에 불편함을 겪기도 하죠. 그래서 오늘은 본격적인 추위가 찾아오기 전 미리 알아두면 좋은 겨울맞이 월동 준비 방법을 정리해 보려고 해요. 난방비 부담을 줄이는 보일러 사용법부터 겨울철 적정 실내 온도와 습도 관리까지 하나씩 살펴볼게요. 겨울철 보",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjEwMzBfMjUg/MDAxNzkzMzIwNTg5MzU1.378JJxrBtATgiZxOWxRUhQe8HBzYMuM6URbJbDxwq8Eg.7m1hh6NsNBM7qwHC0TPNKKp-sf7Q3SxSecDhoFVa6mcg.PNG/1.png?type=w966",
+      "category": "일상팁",
+      "tags": [
+        "월동준비",
+        "겨울월동준비",
+        "보일러관리",
+        "난방비절약",
+        "보일러외출모드",
+        "겨울철실내습도",
+        "실내습도관리",
+        "겨울철적정온도",
+        "겨울철환기",
+        "겨울생활꿀팁"
+      ],
+      "publishedAt": "2026-10-30T01:26:21.000Z",
+      "sourceUrl": "https://blog.naver.com/momoip1/224458757148",
+      "status": "live",
+      "firstSeenAt": "2026-10-30T23:00:40.865Z",
+      "updatedAt": "2026-10-30T23:00:40.865Z",
       "removedAt": null
     }
   ]
