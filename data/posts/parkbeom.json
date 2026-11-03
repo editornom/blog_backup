@@ -1,6 +1,6 @@
 {
   "blogId": "parkbeom",
-  "updatedAt": "2026-10-30T23:00:40.539Z",
+  "updatedAt": "2026-11-03T01:39:26.827Z",
   "posts": [
     {
       "blogId": "parkbeom",
@@ -3599,6 +3599,32 @@
       "status": "live",
       "firstSeenAt": "2026-10-30T23:00:40.539Z",
       "updatedAt": "2026-10-30T23:00:40.539Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "parkbeom",
+      "logNo": "224462841729",
+      "title": "돌아온 추위! 날씨 추워지면 아이폰 배터리 갑자기 방전되는 이유",
+      "excerpt": "아침저녁 기온이 크게 떨어지기 시작하면 스마트폰에서도 평소와 다른 변화가 느껴질 때가 있습니다. 분명 배터리가 남아 있었는데 갑자기 잔량이 크게 줄거나, 야외에서 사진을 찍다가 전원이 꺼져 당황했던 경험이 대표적인데요. 특히 겨울만 되면 아이폰 배터리 방전이 심해졌다고 느끼는 사람이 많습니다. 그렇다면 정말 추운 날씨가 아이폰 배터리를 망가뜨리는 걸까요? 오늘은 날씨가 추워졌을 때 배터리가 유독 빠르게 줄어드는 이유와 관리 방법을 알아보겠습니다. 1. 아이폰은 추위에 왜 약할까? 아이폰에는 리튬이온 배터리가 사용됩니다. 배터리는 내부의 화학 반응을 통해 전력을 만들어 내는데, 온도가 낮아지면 이 과정이 평소처럼",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMDJfNDIg/MDAxNzkzNjMwMTE3NDQ2.uZlT8gM9_7FG1NgfbfHHQwEYB3xE1kAp2xHzU6m6Kbcg.PM19r_OD59xstXCAyyuzOqkpJg5Lui-hR7mA-aMTAFMg.JPEG/maxim-potkin-J2Cwjyve1Kg-unsplash.jpg?type=w966",
+      "category": "일상",
+      "tags": [
+        "아이폰배터리방전",
+        "아이폰배터리빨리닳음",
+        "아이폰겨울배터리",
+        "아이폰추위꺼짐",
+        "아이폰배터리성능",
+        "아이폰배터리수명",
+        "아이폰적정온도",
+        "아이폰충전안됨",
+        "리튬이온배터리",
+        "겨울스마트폰관리"
+      ],
+      "publishedAt": "2026-11-03T00:00:00.000Z",
+      "sourceUrl": "https://blog.naver.com/parkbeom/224462841729",
+      "status": "live",
+      "firstSeenAt": "2026-11-03T01:39:26.827Z",
+      "updatedAt": "2026-11-03T01:39:26.827Z",
       "removedAt": null
     }
   ]
