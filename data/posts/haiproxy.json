@@ -1,6 +1,6 @@
 {
   "blogId": "haiproxy",
-  "updatedAt": "2026-10-30T23:00:41.200Z",
+  "updatedAt": "2026-11-04T00:00:25.230Z",
   "posts": [
     {
       "blogId": "haiproxy",
@@ -4153,6 +4153,42 @@
       "status": "live",
       "firstSeenAt": "2026-10-30T23:00:41.200Z",
       "updatedAt": "2026-10-30T23:00:41.200Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haiproxy",
+      "logNo": "224463696120",
+      "title": "인스타그램 마케팅 계정 관리에 고정아이피가 필요한 이유와 주의사항",
+      "excerpt": "인스타그램으로 마케팅을 진행하다 보면 계정 하나만으로는 부족한 경우가 많습니다. 그래서 여러 개의 계정을 함께 운영하게 됩니다. 그런데 이렇게 여러 계정을 관리할 때 접속 환경까지 함께 신경 써야 한다는 사실을 알고 계셨나요? 단순히 로그인만 반복한다고 생각하기 쉽습니다. 하지만 실제로는 접속 주소가 계정 관리에 영향을 줄 수 있습니다. 오늘은 인스타그램 다계정 운영 시 고정아이피가 필요한 이유를 정리해 보겠습니다. 함께 주의해야 할 사항도 짚어보겠습니다. 여러 계정을 운영하면 접속 제한 문제가 생깁니다 마케팅 목적으로 인스타그램 계정을 여러 개 운영하다 보면, 어느 순간 계정에 제한이 걸리거나 로그인 자체가 막",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMDNfNzkg/MDAxNzkzNjkzNzU4Mzgw.GN-pSkDob9fYmz5NqNnVvff8fPpPS5JzWcwhwRHcXnIg.VGl5oC2ihG4zl0VkKg7Mv8TsDKkE9AB3D-ZIHn_wLusg.PNG/%B4%EB%C7%A5%C0%CC%B9%CC%C1%F6.png?type=w966",
+      "category": "고정아이피",
+      "tags": [
+        "고정아이피",
+        "인스타그램마케팅",
+        "다계정관리",
+        "인스타그램계정관리",
+        "SNS마케팅",
+        "계정제한",
+        "하이프록시",
+        "클린IP",
+        "접속환경관리",
+        "인스타다계정",
+        "소셜미디어마케팅",
+        "계정보안",
+        "마케팅대행사",
+        "인플루언서마케팅",
+        "인스타그램운영",
+        "IP고정",
+        "계정로그인제한",
+        "SNS계정관리",
+        "마케팅팀업무",
+        "다중계정운영"
+      ],
+      "publishedAt": "2026-11-03T08:16:15.000Z",
+      "sourceUrl": "https://blog.naver.com/haiproxy/224463696120",
+      "status": "live",
+      "firstSeenAt": "2026-11-04T00:00:25.230Z",
+      "updatedAt": "2026-11-04T00:00:25.230Z",
       "removedAt": null
     }
   ]

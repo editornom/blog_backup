@@ -1,6 +1,6 @@
 {
   "blogId": "momoip1",
-  "updatedAt": "2026-10-30T23:00:40.865Z",
+  "updatedAt": "2026-11-04T00:00:24.919Z",
   "posts": [
     {
       "blogId": "momoip1",
@@ -3425,6 +3425,37 @@
       "status": "live",
       "firstSeenAt": "2026-10-30T23:00:40.865Z",
       "updatedAt": "2026-10-30T23:00:40.865Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "momoip1",
+      "logNo": "224463247453",
+      "title": "보일러 외출 모드 켜두는 게 오히려 가스비 더 나올까?",
+      "excerpt": "추운 날씨가 시작되면 자연스럽게 신경 쓰이는 것이 난방비입니다. 특히 집을 비울 때 보일러를 끄는 것이 좋은지, 외출 모드를 사용하는 것이 좋은지 고민하는 분들이 많은데요. 보일러 외출 모드를 사용하면 가스비를 절약할 수 있다는 이야기가 있는 반면, 오히려 난방비가 더 많이 나올 수 있다는 의견도 있습니다. 실제로 보일러 외출 모드가 난방비 절약에 도움이 되는지는 외출 시간과 주택의 단열 상태, 보일러의 작동 방식에 따라 달라질 수 있습니다. 그렇다면 어떤 상황에서 외출 모드를 사용하는 것이 좋을까요? 겨울철 가스비를 줄이는 데 도움이 되는 보일러 사용 방법을 알아보겠습니다. 보일러 외출 모드, 정확히 어떤 기능일까",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMDNfMjMw/MDAxNzkzNjcxMTczNDAw.ZwYhc9U29BeEJektRHdrkT3gpNKyLNdAYgy9TAIQchgg.w7qrGfcSIF-wxjGccIzff0U37cw7dmwTy2rMQVJ6BIcg.PNG/1.png?type=w966",
+      "category": "일상팁",
+      "tags": [
+        "보일러외출모드",
+        "보일러외출",
+        "보일러가스비",
+        "보일러난방비",
+        "보일러설정",
+        "보일러외출모드가스비",
+        "가스비절약",
+        "난방비절약",
+        "겨울철난방비",
+        "난방비줄이는법",
+        "보일러사용법",
+        "보일러온돌모드",
+        "보일러실내온도",
+        "겨울철생활정보",
+        "난방비아끼는법"
+      ],
+      "publishedAt": "2026-11-03T02:08:11.000Z",
+      "sourceUrl": "https://blog.naver.com/momoip1/224463247453",
+      "status": "live",
+      "firstSeenAt": "2026-11-04T00:00:24.919Z",
+      "updatedAt": "2026-11-04T00:00:24.919Z",
       "removedAt": null
     }
   ]

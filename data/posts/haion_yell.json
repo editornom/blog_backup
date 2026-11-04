@@ -1,6 +1,6 @@
 {
   "blogId": "haion_yell",
-  "updatedAt": "2026-10-30T23:00:39.870Z",
+  "updatedAt": "2026-11-04T00:00:23.960Z",
   "posts": [
     {
       "blogId": "haion_yell",
@@ -3710,6 +3710,29 @@
       "status": "live",
       "firstSeenAt": "2026-10-30T23:00:39.870Z",
       "updatedAt": "2026-10-30T23:00:39.870Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haion_yell",
+      "logNo": "224463553490",
+      "title": "11월 초 오사카 여행 경량패딩 챙겨야 할까? 현지 체감 날씨",
+      "excerpt": "11월 초 오사카 여행을 앞두고 있다면 가장 고민되는 것 중 하나가 바로 옷차림입니다. 낮에는 비교적 포근하지만 아침저녁으로는 쌀쌀해 경량패딩을 챙겨야 할지 고민되실 것 같은데요. 현재 오사카 기온과 현지 체감 날씨를 바탕으로 여행 옷차림을 정리해 드릴게요! 11월 오사카 날씨는? 11월 오사카의 낮 최고기온은 약 21도, 최저기온은 15도 안팎입니다. 11월 3일부터 6일까지도 낮에는 20~22도 정도로 비교적 온화한 날씨가 이어질 전망인데요. 다만 11월 7일부터는 낮 최고기온이 14도 안팎까지 떨어질 것으로 예상되어 여행 날짜에 따라 옷차림을 다르게 준비해야 합니다. 11월 초라고 해서 무조건 두꺼운 겨울 외투가 필요한 것은 아닙",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMDNfODYg/MDAxNzkzNjg2OTk1NDM0.sOzHgUZuCjFVdI0jh-Nrpk_7oYISRHbCPSwybtYIjfsg.2j5dWgOW6iUdj6vYFeJUMIN6KyZsy09nX7l-4HB9zrQg.JPEG/robinams-billboard-555597_1920.jpg?type=w966",
+      "category": "해외핫이슈",
+      "tags": [
+        "오사카",
+        "오사카여행",
+        "오사카날씨",
+        "11월오사카날씨",
+        "11월오사카",
+        "11월오사카여행",
+        "11월오사카옷차림"
+      ],
+      "publishedAt": "2026-11-03T06:25:34.000Z",
+      "sourceUrl": "https://blog.naver.com/haion_yell/224463553490",
+      "status": "live",
+      "firstSeenAt": "2026-11-04T00:00:23.960Z",
+      "updatedAt": "2026-11-04T00:00:23.960Z",
       "removedAt": null
     }
   ]
