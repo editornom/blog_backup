@@ -1,6 +1,6 @@
 {
   "blogId": "haionnet2020",
-  "updatedAt": "2026-11-03T01:39:26.448Z",
+  "updatedAt": "2026-11-05T00:24:53.141Z",
   "posts": [
     {
       "blogId": "haionnet2020",
@@ -3614,6 +3614,31 @@
       "status": "live",
       "firstSeenAt": "2026-11-03T01:39:26.448Z",
       "updatedAt": "2026-11-03T01:39:26.448Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haionnet2020",
+      "logNo": "224464973015",
+      "title": "카페 공공 와이파이 보안 위험할까? VPN 필요한 이유와 사용법",
+      "excerpt": "재택근무를 하다가 사내 시스템에 접속했는데, 평소와 다른 네트워크에서 접근했다는 이유로 추가 인증을 요구받거나 접속 자체가 막힌 경험이 있을 수 있습니다. 노트북 하나로 집에서도, 카페에서도 업무를 처리할 수 있는 시대지만, 접속 환경이 자꾸 바뀌면 이런 불편함을 마주하게 되는데요. 오늘은 장소에 관계없이 일정한 접속 환경을 유지하는 방법과, 하이아이피의 기간사 고정아이피 서비스를 함께 알아보겠습니다. 업무 환경에서 네트워크 안정성이 중요한 이유 요즘은 사무실에 출근하지 않더라도 노트북이나 스마트폰만 있으면 다양한 업무를 처리할 수 있습니다. 재택근무부터 외근 중 자료 확인, 사내 시스템 접속까지 인터넷을 활",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMDNfMTgw/MDAxNzkzNjk4OTMzMTkx.bnXDT8TGGX1us5FnhzS3B3SSDxz6p9XWu7NLvd9LWQEg.rSY2S_z8Y99FhdxSNlKvvRUtDDuOmg5S9ib-nQ7qrOIg.PNG/%B4%EB%C7%A5%C0%CC%B9%CC%C1%F6.png?type=w966",
+      "category": "기간사고정/유동",
+      "tags": [
+        "아이피",
+        "기간사아이피",
+        "고정아이피",
+        "유동아이피",
+        "아이피서비스",
+        "vpn",
+        "공공vpn",
+        "vpn서비스",
+        "기간사vpn"
+      ],
+      "publishedAt": "2026-11-04T09:08:40.000Z",
+      "sourceUrl": "https://blog.naver.com/haionnet2020/224464973015",
+      "status": "live",
+      "firstSeenAt": "2026-11-05T00:24:53.141Z",
+      "updatedAt": "2026-11-05T00:24:53.141Z",
       "removedAt": null
     }
   ]

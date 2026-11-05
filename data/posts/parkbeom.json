@@ -1,6 +1,6 @@
 {
   "blogId": "parkbeom",
-  "updatedAt": "2026-11-03T01:39:26.827Z",
+  "updatedAt": "2026-11-05T00:24:53.435Z",
   "posts": [
     {
       "blogId": "parkbeom",
@@ -3625,6 +3625,33 @@
       "status": "live",
       "firstSeenAt": "2026-11-03T01:39:26.827Z",
       "updatedAt": "2026-11-03T01:39:26.827Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "parkbeom",
+      "logNo": "224464323547",
+      "title": "카페 공공 와이파이 해킹 위험성 개인정보 지키는 VPN 활용법",
+      "excerpt": "카페나 도서관, 공공시설에 방문하면 무료 와이파이부터 찾게 됩니다 데이터 사용량을 아낄 수 있고, 노트북으로 업무를 하거나 블로그 글을 작성할 때도 편리하기 때문인데요. 그런데 여러 사람이 함께 사용하는 네트워크에 접속할 때는 주의해야 할 부분이 있습니다. 바로 개인정보 유출과 보안 문제입니다. 공공 와이파이 해킹은 평소 무심코 연결하는 과정에서 발생할 수 있어 기본적인 예방 방법을 알아두는 것이 좋습니다. 오늘은 카페에서 주의해야 할 보안 위험과 개인정보를 지키는 연결 방법, 외부 작업 시 안정적인 접속 환경을 만드는 방법까지 쿨아이피와 함께 살펴보겠습니다. 공공 와이파이에서 개인정보가 노출되는 이유 공공장",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMDRfOTQg/MDAxNzkzNzUwMjA0OTY1.Vms4Ux_4ZqEIf7dF1_XeU1vUp4pEO5aL-1M4lTxsVVQg.Nvf36jqL6Rdwc6cPSJrxc5QL20XdnnDnYCl4uAr3c0Ug.PNG/%B4%EB%C7%A5%C0%CC%B9%CC%C1%F6.png?type=w966",
+      "category": "고정아이피",
+      "tags": [
+        "공공와이파이해킹",
+        "카페와이파이",
+        "개인정보보호",
+        "공공와이파이보안",
+        "와이파이해킹",
+        "인터넷보안",
+        "암호화연결",
+        "고정IP",
+        "KT고정IP",
+        "원격근무",
+        "쿨아이피"
+      ],
+      "publishedAt": "2026-11-04T00:02:01.000Z",
+      "sourceUrl": "https://blog.naver.com/parkbeom/224464323547",
+      "status": "live",
+      "firstSeenAt": "2026-11-05T00:24:53.435Z",
+      "updatedAt": "2026-11-05T00:24:53.435Z",
       "removedAt": null
     }
   ]

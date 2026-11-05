@@ -1,6 +1,6 @@
 {
   "blogId": "haion_yell",
-  "updatedAt": "2026-11-04T00:00:23.960Z",
+  "updatedAt": "2026-11-05T00:24:52.850Z",
   "posts": [
     {
       "blogId": "haion_yell",
@@ -3733,6 +3733,30 @@
       "status": "live",
       "firstSeenAt": "2026-11-04T00:00:23.960Z",
       "updatedAt": "2026-11-04T00:00:23.960Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haion_yell",
+      "logNo": "224463559020",
+      "title": "해외 여행 중 한국 넷플릭스 접속 안 될 때 VPN으로 간단하게 해결",
+      "excerpt": "해외여행을 가면 낮에는 여기저기 구경하고 맛있는 음식도 먹으면서 시간을 보내게 됩니다. 그러다 저녁에 숙소로 돌아와 씻고 침대에 누워 좋아하는 드라마를 보는 시간도 참 좋은데요. 그런데 막상 넷플릭스를 켰더니 한국에서 보던 작품이 검색되지 않거나 재생이 안 된다면 조금 아쉽겠죠? 오늘은 해외에서도 한국 콘텐츠를 즐기고 싶을 때 알아두면 좋은 방법을 소개해 드릴게요. 여행지에서 한국 넷플릭스가 다르게 보이는 이유 여행을 준비할 때는 항공권부터 숙소, 맛집까지 꼼꼼하게 알아보지만 인터넷 환경까지 신경 쓰는 분들은 많지 않으실 것 같습니다. 여행지에서도 와이파이를 사용할 수 있으니 인터넷 접속에 크게 신경 쓰지 않",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMDNfMjIz/MDAxNzkzNjg3MTY1Mjk5.3Kp3j5DZC6Y1dJdhqNbIHLkOo84tRSA6d74FI36FlXUg.xIS-OZll2gFgbuC--EPAHgOvNGkWTdK0cN-vU4e9JCAg.PNG/%B4%EB%C7%A5%C0%CC%B9%CC%C1%F6.png?type=w966",
+      "category": "해외VPN",
+      "tags": [
+        "하이아이피",
+        "해외여행",
+        "해외",
+        "해외vpn",
+        "vpn",
+        "vpn추천",
+        "VPN다운로드",
+        "컴퓨터VPN"
+      ],
+      "publishedAt": "2026-11-04T00:30:00.000Z",
+      "sourceUrl": "https://blog.naver.com/haion_yell/224463559020",
+      "status": "live",
+      "firstSeenAt": "2026-11-05T00:24:52.850Z",
+      "updatedAt": "2026-11-05T00:24:52.850Z",
       "removedAt": null
     }
   ]

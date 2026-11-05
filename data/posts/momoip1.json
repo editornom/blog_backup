@@ -1,6 +1,6 @@
 {
   "blogId": "momoip1",
-  "updatedAt": "2026-11-04T00:00:24.919Z",
+  "updatedAt": "2026-11-05T00:24:53.718Z",
   "posts": [
     {
       "blogId": "momoip1",
@@ -3456,6 +3456,45 @@
       "status": "live",
       "firstSeenAt": "2026-11-04T00:00:24.919Z",
       "updatedAt": "2026-11-04T00:00:24.919Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "momoip1",
+      "logNo": "224464445789",
+      "title": "재택근무 시 사내 시스템 접속이 안 될 때 고정아이피의 필요성",
+      "excerpt": "최근 재택근무와 원격 근무가 보편화되면서, 집에서 사내 시스템에 접속하다가 갑자기 연결이 끊기는 경험을 하는 경우도 늘고 있습니다. 인터넷 연결에는 문제가 없는데 업무용 프로그램이나 내부 자료에 접근할 수 없다면, 접속 주소에 대한 제한이 원인일 수 있는데요. 이럴 때 살펴볼 수 있는 것이 바로 고정아이피입니다. 오늘은 사내 시스템 접속이 막히는 이유와, 모모아이피가 제공하는 고정아이피로 이를 어떻게 해결할 수 있는지 함께 알아보겠습니다. 인터넷은 잘 되는데 사내 시스템만 접속되지 않는 이유 집에서 업무를 시작하려고 컴퓨터를 켰는데 회사에서 사용하는 프로그램이 열리지 않는다면 당황스러울 수밖에 없는데요. 일반",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMDRfNDkg/MDAxNzkzNzU2OTk5OTI0.oqhO9MlmCPrKDsKHO5J6DuHeG5mGdp2W7qvcvdNUfYAg.ndN9Z-j9Xe3VIzbn6qHBk6rVWPqSQ3tGR_8BBz2dWywg.PNG/%B4%EB%C7%A5%C0%CC%B9%CC%C1%F6.png?type=w966",
+      "category": "고정아이피",
+      "tags": [
+        "고정아이피",
+        "고정IP",
+        "고정아이피추천",
+        "고정아이피가격",
+        "고정아이피설정",
+        "고정아이피VPN",
+        "고정IPVPN",
+        "VPN",
+        "VPN추천",
+        "VPN서비스",
+        "통신사아이피",
+        "KT고정아이피",
+        "KT아이피",
+        "클린아이피",
+        "전용아이피",
+        "아이피변경",
+        "아이피관리",
+        "재택근무VPN",
+        "원격근무",
+        "원격접속",
+        "사내시스템접속",
+        "기업용VPN",
+        "업무용VPN"
+      ],
+      "publishedAt": "2026-11-04T01:50:49.000Z",
+      "sourceUrl": "https://blog.naver.com/momoip1/224464445789",
+      "status": "live",
+      "firstSeenAt": "2026-11-05T00:24:53.718Z",
+      "updatedAt": "2026-11-05T00:24:53.718Z",
       "removedAt": null
     }
   ]

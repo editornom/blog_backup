@@ -1,6 +1,6 @@
 {
   "blogId": "haionnet486",
-  "updatedAt": "2026-10-29T23:21:04.267Z",
+  "updatedAt": "2026-11-05T00:24:51.735Z",
   "posts": [
     {
       "blogId": "haionnet486",
@@ -3612,6 +3612,39 @@
       "status": "live",
       "firstSeenAt": "2026-10-29T23:21:04.267Z",
       "updatedAt": "2026-10-29T23:21:04.267Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haionnet486",
+      "logNo": "224464395716",
+      "title": "기업 본지사 VPN 네트워크 보안부터 마케팅 게임 전용회선까지",
+      "excerpt": "기업 본-지사 전용망 구축, 강력한 보안, 24시 365일 관제 및 네트워크 유지보수와 비용절감까지, 하이온넷의 완벽한 VPN전용회선 솔루션을 만나보세요. 하이온넷 기업VPN 핵심 특장점 한눈에 보기 전용선 대비 최대 75% 비용 절감: 일반 인터넷 회선을 활용하면서도 고품질 공인 IP와 전용선 수준의 환경을 구축해 통신비를 대폭 아낄 수 있습니다. 철저한 보안 및 방화벽 탑재: 불법 접근을 원천 차단하는 강력한 방화벽, NAT, 데이터 암호화(Blowfish 알고리즘 등) 적용으로 기업 자산을 안전하게 보호합니다. 24시간 365일 실시간 통합 관제: 전문 엔지니어가 상주하며 야간이나 주말에도 네트워크 상태를 실시간 모니터링하여 장애 요인 발",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMDRfODkg/MDAxNzkzNzUzNTUyNDQw.ew10Sx8pNYU7FFKC4wamxU-kNZy7_RN12mYC5Xb_Qc0g.2iLRJVkZ-IXHLvoCjY01Q-HjkUbRh4kfQ5IMbIx77zgg.JPEG/twi001t3311807_l.jpg?type=w966",
+      "category": "기업용vpn전용회선",
+      "tags": [
+        "기업VPN",
+        "하이온넷",
+        "기업전용선",
+        "본지사연결",
+        "해외VPN",
+        "네트워크보안",
+        "VPN추천",
+        "마케팅VPN",
+        "게임VPN",
+        "고정IP",
+        "비용절감",
+        "네트워크유지보수",
+        "본지사vpn",
+        "기업vpn전용회선",
+        "마케팅vpn전용회선",
+        "게임vpn전용회선",
+        "해외전용회선"
+      ],
+      "publishedAt": "2026-11-04T01:09:38.000Z",
+      "sourceUrl": "https://blog.naver.com/haionnet486/224464395716",
+      "status": "live",
+      "firstSeenAt": "2026-11-05T00:24:51.735Z",
+      "updatedAt": "2026-11-05T00:24:51.735Z",
       "removedAt": null
     }
   ]
