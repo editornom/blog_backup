@@ -1,6 +1,6 @@
 {
   "blogId": "haiproxy",
-  "updatedAt": "2026-11-04T00:00:25.230Z",
+  "updatedAt": "2026-11-06T00:23:17.187Z",
   "posts": [
     {
       "blogId": "haiproxy",
@@ -4189,6 +4189,42 @@
       "status": "live",
       "firstSeenAt": "2026-11-04T00:00:25.230Z",
       "updatedAt": "2026-11-04T00:00:25.230Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haiproxy",
+      "logNo": "224465909733",
+      "title": "11월 블랙프라이데이 직구할 때 관부가세 면제 한도 얼마까지일까",
+      "excerpt": "11월이 되면 블랙프라이데이를 노리고 해외 직구를 준비하는 분들이 많아집니다. 평소 눈여겨보던 전자기기나 의류를 할인된 가격에 살 수 있는 시기라, 장바구니를 가득 채워두는 경우도 흔한데요. 막상 결제하기 전에는 '이만큼 사도 세금이 안 붙을까'라는 생각이 한 번쯤 들기 마련입니다. 해외에서 물건을 들여올 때는 가격에 따라 관세와 부가세가 붙을 수 있습니다. 면제 한도를 미리 알아두면 예상치 못한 추가 비용을 피할 수 있습니다. 오늘은 하이프록시와 함께, 2026년 기준 관부가세 면제 한도와 알아두면 좋은 통관 규정을 정리해 보겠습니다. 관부가세 면제 한도는 150달러부터 적용됩니다 개인이 자가사용 목적으로 들",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMDVfMjY0/MDAxNzkzODUzNDY2NDE1.L6HUMYcJ8Btuk-zuYyQynCnQSYae3Q7vM4JVuVt2VLYg.xAvLxbwm-6e21ZgbDxmtQpZ10bjs-DWTm0hv4qORO-Mg.JPEG/td04970005098_l.jpg?type=w966",
+      "category": "★일상 TIP",
+      "tags": [
+        "관부가세",
+        "해외직구",
+        "블랙프라이데이",
+        "면제한도",
+        "목록통관",
+        "개인통관고유부호",
+        "한미FTA",
+        "직구세금",
+        "통관규정",
+        "해외쇼핑",
+        "직구꿀팁",
+        "일반수입신고",
+        "자가사용",
+        "직구합산",
+        "11월쇼핑",
+        "해외직구세금",
+        "통관지연",
+        "직구주의사항",
+        "하이프록시",
+        "직구정보"
+      ],
+      "publishedAt": "2026-11-05T04:47:17.000Z",
+      "sourceUrl": "https://blog.naver.com/haiproxy/224465909733",
+      "status": "live",
+      "firstSeenAt": "2026-11-06T00:23:17.187Z",
+      "updatedAt": "2026-11-06T00:23:17.187Z",
       "removedAt": null
     }
   ]

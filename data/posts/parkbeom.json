@@ -1,6 +1,6 @@
 {
   "blogId": "parkbeom",
-  "updatedAt": "2026-11-05T00:24:53.435Z",
+  "updatedAt": "2026-11-06T00:23:16.716Z",
   "posts": [
     {
       "blogId": "parkbeom",
@@ -3652,6 +3652,33 @@
       "status": "live",
       "firstSeenAt": "2026-11-05T00:24:53.435Z",
       "updatedAt": "2026-11-05T00:24:53.435Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "parkbeom",
+      "logNo": "224466552227",
+      "title": "마케팅 활동 시 유동아이피 사용의 장단점과 필요성 정리",
+      "excerpt": "마케팅 업무를 하다 보면 콘텐츠 제작 외에도 신경 써야 할 부분이 적지 않다는 사실을 체감하게 됩니다. 광고 소재가 제대로 노출되는지 확인하거나, 경쟁사 동향을 살피고, 여러 환경에서 서비스가 어떻게 보이는지 점검하는 일도 그중 하나인데요. 처음에는 일반 인터넷 환경으로도 충분하지만, 확인 범위가 넓어지면 접속 환경을 체계적으로 관리해야 하는 상황이 생깁니다. 오늘은 마케팅 활동에서 유동아이피가 필요한 이유와 장단점, 상품 선택 시 참고할 점을 정리해 보겠습니다. 마케팅 활동에 유동아이피가 필요한 이유 유동아이피는 필요에 따라 접속 주소를 변경하면서 사용할 수 있는 서비스입니다. 하나의 주소를 유지하는 고정형",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMDVfMTE2/MDAxNzkzODg3NDU3NDU4.c2F0PJ6u3-OJu7uztBkppG2Htme-wJby_WcwSjah5Ckg.a5XZx1z-w8tC8946GWF2kwa_KuxUBSDTmwn_gtQaC38g.PNG/%B4%EB%C7%A5%C0%CC%B9%CC%C1%F6.png?type=w966",
+      "category": "유동아이피",
+      "tags": [
+        "유동아이피",
+        "유동IP",
+        "KT유동IP",
+        "마케팅대행사",
+        "바이럴마케팅",
+        "IP변경",
+        "데이터모니터링",
+        "IP대역",
+        "클린IP",
+        "무료테스트",
+        "쿨아이피"
+      ],
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "sourceUrl": "https://blog.naver.com/parkbeom/224466552227",
+      "status": "live",
+      "firstSeenAt": "2026-11-06T00:23:16.716Z",
+      "updatedAt": "2026-11-06T00:23:16.716Z",
       "removedAt": null
     }
   ]
