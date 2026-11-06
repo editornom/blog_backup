@@ -1,6 +1,6 @@
 {
   "blogId": "momoip1",
-  "updatedAt": "2026-11-05T00:24:53.718Z",
+  "updatedAt": "2026-11-06T23:44:43.300Z",
   "posts": [
     {
       "blogId": "momoip1",
@@ -3495,6 +3495,47 @@
       "status": "live",
       "firstSeenAt": "2026-11-05T00:24:53.718Z",
       "updatedAt": "2026-11-05T00:24:53.718Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "momoip1",
+      "logNo": "224467388859",
+      "title": "해외에서 유튜브 스트리밍을 고화질로 보는 유료VPN 속도",
+      "excerpt": "해외에서 유튜브를 보다가 갑자기 화질이 뚝 떨어지거나 영상이 끊기는 경험, 한 번쯤 있지 않으신가요? 특히 고화질 스트리밍을 자주 이용한다면 인터넷 연결 상태뿐 아니라 데이터를 전달하는 경로와 속도까지 살펴볼 필요가 있는데요. 이럴 때 유료VPN 속도를 비교해보는 분들도 있습니다. 오늘은 해외에서 영상을 시청할 때 화질이 달라지는 이유와 안정적인 재생을 위해 확인해야 할 내용을 알아보겠습니다. 해외에서 유튜브를 볼 때 화질이 떨어지는 이유 평소 국내에서는 별다른 문제 없이 재생되던 영상이 해외에서는 유독 느리게 느껴지는 경우가 있습니다. 숙소에서 제공하는 와이파이나 여러 사람이 함께 사용하는 공용 네트워크에서",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMDZfMjc4/MDAxNzkzOTI5MjI0MzA1.vgtzc-S4Km2fiL3V0qnzEmjXoVgPKIcCXX9n2CN-yygg.2wfCT_SFdcxC3bHTpcwxiI32otTmEb9gh8yEmgB0Agkg.JPEG/01.jpg?type=w966",
+      "category": "일상팁",
+      "tags": [
+        "유료VPN속도",
+        "유료VPN",
+        "VPN속도비교",
+        "VPN속도측정",
+        "해외VPN",
+        "해외유튜브",
+        "해외유튜브시청",
+        "유튜브고화질",
+        "유튜브4K",
+        "유튜브1080p",
+        "유튜브스트리밍",
+        "고화질스트리밍",
+        "유튜브끊김",
+        "유튜브버퍼링",
+        "유튜브화질저하",
+        "유튜브화질설정",
+        "인터넷속도",
+        "인터넷속도측정",
+        "해외인터넷속도",
+        "VPN서버",
+        "VPN연결속도",
+        "VPN추천",
+        "스트리밍VPN",
+        "해외와이파이",
+        "인터넷연결안정성"
+      ],
+      "publishedAt": "2026-11-06T07:51:07.000Z",
+      "sourceUrl": "https://blog.naver.com/momoip1/224467388859",
+      "status": "live",
+      "firstSeenAt": "2026-11-06T23:44:43.300Z",
+      "updatedAt": "2026-11-06T23:44:43.300Z",
       "removedAt": null
     }
   ]

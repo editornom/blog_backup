@@ -1,6 +1,6 @@
 {
   "blogId": "haionnet2020",
-  "updatedAt": "2026-11-05T00:24:53.141Z",
+  "updatedAt": "2026-11-06T23:44:42.705Z",
   "posts": [
     {
       "blogId": "haionnet2020",
@@ -3639,6 +3639,32 @@
       "status": "live",
       "firstSeenAt": "2026-11-05T00:24:53.141Z",
       "updatedAt": "2026-11-05T00:24:53.141Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haionnet2020",
+      "logNo": "224467468008",
+      "title": "VPN이란 무엇일까? 가상사설망 원리와 안전한 사용가이드",
+      "excerpt": "카페나 공항, 호텔에서 노트북으로 업무를 처리할 때, 지금 연결된 인터넷이 안전한지 생각해 보신 적 있으신가요? 인터넷은 이제 집이나 사무실뿐만 아니라 다양한 장소에서 이용하는 일상적인 수단이 되었지만, 장소에 따라 네트워크 보안 수준이 다르기 때문에 외부에서 업무를 처리할 때는 개인정보와 기업 자료를 보호하기 위한 별도의 관리가 필요합니다. 오늘은 가상사설망의 작동 원리와 안전하게 활용하는 방법을, 하이아이피와 함께 정리해 보겠습니다. 가상사설망은 어떤 역할을 할까요 가상사설망은 외부 네트워크를 이용하면서도 안전하게 데이터를 주고받을 수 있도록 도와주는 기술입니다. 일반적인 인터넷 연결과 달리 사용자 기",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMDVfMTU3/MDAxNzkzODMzNTkxMTQ5.nqZ1NLYEj3yPeWDDwHyZasM--hm8TjpdKc6YZIzEosEg.r00vRwf9NmgsttJY7DSc6yLQPCnIXNVjudqj3guZFQUg.PNG/%B4%EB%C7%A5%C0%CC%B9%CC%C1%F6.png?type=w966",
+      "category": "VPN서비스",
+      "tags": [
+        "vpn",
+        "vpn서비스",
+        "아이피",
+        "아이피서비스",
+        "기간사아이피",
+        "기간사고정아이피",
+        "기간사유동아이피",
+        "고정아이피",
+        "유동아이피",
+        "아이피주소"
+      ],
+      "publishedAt": "2026-11-06T08:58:20.000Z",
+      "sourceUrl": "https://blog.naver.com/haionnet2020/224467468008",
+      "status": "live",
+      "firstSeenAt": "2026-11-06T23:44:42.705Z",
+      "updatedAt": "2026-11-06T23:44:42.705Z",
       "removedAt": null
     }
   ]

@@ -1,6 +1,6 @@
 {
   "blogId": "haionnet486",
-  "updatedAt": "2026-11-05T00:24:51.735Z",
+  "updatedAt": "2026-11-06T23:44:41.241Z",
   "posts": [
     {
       "blogId": "haionnet486",
@@ -3645,6 +3645,42 @@
       "status": "live",
       "firstSeenAt": "2026-11-05T00:24:51.735Z",
       "updatedAt": "2026-11-05T00:24:51.735Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haionnet486",
+      "logNo": "224467381203",
+      "title": "유럽 7개국 마트 냉장고가 털렸다 IoT 해킹사건으로 본 사물인터넷 보안의 현실",
+      "excerpt": "마트 냉장고가 해킹을 당해 식품이 전부 상해버렸다면 어떤 기분일까요? 상상 속 이야기가 아니라 최근 유럽에서 실제로 벌어진 일입니다. 지난달 프랑스 슈퍼마켓 수백 곳의 냉장·냉동 설비가 마비됐습니다. 이어서 벨기에·룩셈부르크·스웨덴·아일랜드·네덜란드·에스토니아·핀란드 등 7개국에서도 비슷한 공격이 잇따라 확인됐습니다. 마트 냉장고까지 해킹 대상이 된 이번 사건은 가볍게 넘길 일이 아닙니다. 사물인터넷(IoT) 보안이 더는 먼 나라 이야기가 아니라는 점을 보여줍니다. 오늘은 하이온넷 블로그에서, 이 사건을 통해 사물인터넷 보안에서 무엇을 점검해야 하는지 짚어보겠습니다. 원격 접속 시스템이 공격의 통로였습니다 공격자",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMDZfMjgg/MDAxNzkzOTUwNjQzNDAz.xcCvWICpYPCfIFJGhyelrj0DFh4HvW2nSXQW8JWqjBcg.uaK57BUlQYCbu2EotgnVEsMExD4wy7G0HV-g5uPBvmog.JPEG/cm280028360_l.jpg?type=w966",
+      "category": "IT관련 정보글",
+      "tags": [
+        "IoT해킹",
+        "사물인터넷보안",
+        "IoT보안",
+        "네트워크보안",
+        "UTM",
+        "통합위협관리",
+        "유럽해킹사건",
+        "스마트기기보안",
+        "원격접속보안",
+        "IP카메라보안",
+        "네트워크분리",
+        "보안업데이트",
+        "기업네트워크보안",
+        "해킹사례",
+        "보안점검",
+        "망분리",
+        "이상트래픽탐지",
+        "하이온넷",
+        "정보보안",
+        "사이버보안"
+      ],
+      "publishedAt": "2026-11-06T07:44:57.000Z",
+      "sourceUrl": "https://blog.naver.com/haionnet486/224467381203",
+      "status": "live",
+      "firstSeenAt": "2026-11-06T23:44:41.241Z",
+      "updatedAt": "2026-11-06T23:44:41.241Z",
       "removedAt": null
     }
   ]

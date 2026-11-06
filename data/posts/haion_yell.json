@@ -1,6 +1,6 @@
 {
   "blogId": "haion_yell",
-  "updatedAt": "2026-11-05T00:24:52.850Z",
+  "updatedAt": "2026-11-06T23:44:42.402Z",
   "posts": [
     {
       "blogId": "haion_yell",
@@ -3757,6 +3757,34 @@
       "status": "live",
       "firstSeenAt": "2026-11-05T00:24:52.850Z",
       "updatedAt": "2026-11-05T00:24:52.850Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haion_yell",
+      "logNo": "224467423068",
+      "title": "중국 출장갈 때 한국 금융 및 업무사이트 차단 대처법 VPN설정",
+      "excerpt": "연말을 앞두고 해외 출장 일정이 몰리는 시기인 만큼, 중국 출장을 준비하다 보면 항공권이나 숙소만큼 신경 써야 하는 게 인터넷 환경입니다. 현지에 도착해서 평소처럼 은행 업무를 보거나 회사 시스템에 접속하려는데 사이트가 열리지 않는다면 난감할 수밖에 없는데요. 중요한 업무를 처리해야 하는 일정이라면 출국 전에 미리 확인해 두는 것이 좋습니다. 중국과 한국을 연결하는 하이온차이나 같은 서비스를 함께 알아두면 현지에서도 한결 수월하게 대처할 수 있습니다. 중국에서는 한국 사이트도 접속이 안 될까요 해외여행과 달리 출장은 현지에서도 업무를 계속해야 합니다. 문제는 중국의 인터넷 환경이 한국과 다르다는 점입니다. 구",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMDZfMjYy/MDAxNzkzOTUyOTQ4ODcy.IqcMXN-PkDXCEVaj1k03-ZwZYDL4e5iEZmaZpuMN6pkg.522J6gsLj0_IgYYcfOv0dDlyOcGUXjq2Hr2Yd4Ksdywg.PNG/%B4%EB%C7%A5%C0%CC%B9%CC%C1%F6.png?type=w966",
+      "category": "중국VPN",
+      "tags": [
+        "vpn",
+        "중국vpn",
+        "컴퓨터VPN",
+        "VPN다운로드",
+        "VPN사용법",
+        "VPN이란",
+        "무료VPN",
+        "VPN앱",
+        "해외여행",
+        "중국여행",
+        "중국",
+        "여행"
+      ],
+      "publishedAt": "2026-11-06T08:18:55.000Z",
+      "sourceUrl": "https://blog.naver.com/haion_yell/224467423068",
+      "status": "live",
+      "firstSeenAt": "2026-11-06T23:44:42.402Z",
+      "updatedAt": "2026-11-06T23:44:42.402Z",
       "removedAt": null
     }
   ]

@@ -1,6 +1,6 @@
 {
   "blogId": "haiproxy",
-  "updatedAt": "2026-11-06T00:23:17.187Z",
+  "updatedAt": "2026-11-06T23:44:43.586Z",
   "posts": [
     {
       "blogId": "haiproxy",
@@ -4225,6 +4225,42 @@
       "status": "live",
       "firstSeenAt": "2026-11-06T00:23:17.187Z",
       "updatedAt": "2026-11-06T00:23:17.187Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haiproxy",
+      "logNo": "224467401468",
+      "title": "내게 맞는 VPN업체추천 속도 및 요금제 분석 방법",
+      "excerpt": "여러 VPN업체추천 글을 찾아봐도 결국 가격표와 속도 숫자만 나열돼 있습니다. 어떤 기준으로 골라야 할지 막막했던 경험, 한 번쯤 있으실 겁니다. 광고 문구에서는 다들 '빠르다'고 말합니다. 하지만 실제로 내 환경에서 체감되는 속도는 다를 수 있습니다. 요금제 역시 구성 방식이 제각각이라 단순 비교가 쉽지 않은데요. 오늘은 VPN업체추천을 받을 때 속도와 요금제를 어떤 방식으로 뜯어봐야 하는지 짚어보겠습니다. 속도 숫자만 보면 놓치는 부분이 있습니다 많은 분들이 업체를 고를 때 '최대 속도 몇 Mbps'라는 숫자만 봅니다. 그 숫자만으로 판단하는 경우가 많습니다. 하지만 최대 속도는 특정 조건에서 측정된 수",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMDZfMjEx/MDAxNzkzOTUyMDM2Mzg1.rVXbQqJD8uw-aKke1d_ekZAVx9p6M__ICGbDuZurV14g.ULJvAwCp_kKlcuZPR7oAYjKm5YYxZ9Tp0voUo0fnO3Qg.PNG/%B4%EB%C7%A5%C0%CC%B9%CC%C1%F6.png?type=w966",
+      "category": "기간사아이피",
+      "tags": [
+        "VPN업체추천",
+        "VPN추천",
+        "VPN속도",
+        "VPN요금제",
+        "VPN비교",
+        "하이프록시",
+        "클린IP",
+        "IP관리",
+        "VPN선택기준",
+        "속도체감",
+        "요금제비교",
+        "VPN무료체험",
+        "VPN고르는법",
+        "서버지역",
+        "동시접속기기",
+        "약정환불조건",
+        "IP사용이력",
+        "VPN체크리스트",
+        "온라인보안",
+        "네트워크속도"
+      ],
+      "publishedAt": "2026-11-06T08:01:18.000Z",
+      "sourceUrl": "https://blog.naver.com/haiproxy/224467401468",
+      "status": "live",
+      "firstSeenAt": "2026-11-06T23:44:43.586Z",
+      "updatedAt": "2026-11-06T23:44:43.586Z",
       "removedAt": null
     }
   ]
