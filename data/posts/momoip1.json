@@ -1,6 +1,6 @@
 {
   "blogId": "momoip1",
-  "updatedAt": "2026-11-06T23:44:43.300Z",
+  "updatedAt": "2026-11-10T02:13:16.535Z",
   "posts": [
     {
       "blogId": "momoip1",
@@ -3536,6 +3536,36 @@
       "status": "live",
       "firstSeenAt": "2026-11-06T23:44:43.300Z",
       "updatedAt": "2026-11-06T23:44:43.300Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "momoip1",
+      "logNo": "224470023739",
+      "title": "크롬에서 시크릿 모드를 켜면 내 IP 주소도 진짜 안 보일까?",
+      "excerpt": "크롬 시크릿 모드를 사용하면 검색 기록이 남지 않아 인터넷에서도 내 접속 정보를 확인하기 어려울 것이라고 생각하는 분들이 많습니다. 하지만 실제로는 브라우저에 기록을 남기지 않는 것과 외부에 접속 정보가 노출되지 않는 것은 다른 이야기인데요. 평소 자주 사용하는 기능인 만큼 어떤 정보가 보호되고, 무엇이 그대로 남는지 알아두면 좋겠습니다. 크롬 시크릿 모드, 어떤 기능일까? 인터넷을 사용하다 보면 검색했던 내용이 주소창에 나타나거나 이전에 방문한 사이트가 기록에 남는 경우가 있습니다. 특히 가족과 컴퓨터를 함께 사용하거나 공용 기기에서 잠깐 검색할 일이 생기면 이런 부분이 신경 쓰이기도 하죠. 이럴 때 활용하는",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMDlfMjA1/MDAxNzk0MTg4MTk0OTYw.yfj7SlG6liYq5jZBCmVL2czbpJEOXxZwoIeVc0gxkFAg.5aOc5GeE8doQlOFS7ZJVzhe23YB3CD-e_JIOoWEyVcAg.PNG/1.png?type=w966",
+      "category": "일상팁",
+      "tags": [
+        "크롬시크릿모드",
+        "시크릿모드",
+        "크롬시크릿모드설정",
+        "시크릿모드IP",
+        "IP주소확인",
+        "IP주소숨기기",
+        "인터넷방문기록",
+        "크롬방문기록",
+        "인터넷개인정보보호",
+        "인터넷보안",
+        "브라우저보안",
+        "시크릿모드기록",
+        "VPN",
+        "아이피주소"
+      ],
+      "publishedAt": "2026-11-09T01:45:22.000Z",
+      "sourceUrl": "https://blog.naver.com/momoip1/224470023739",
+      "status": "live",
+      "firstSeenAt": "2026-11-10T02:13:16.535Z",
+      "updatedAt": "2026-11-10T02:13:16.535Z",
       "removedAt": null
     }
   ]

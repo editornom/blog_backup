@@ -1,6 +1,6 @@
 {
   "blogId": "haion_yell",
-  "updatedAt": "2026-11-06T23:44:42.402Z",
+  "updatedAt": "2026-11-10T02:13:15.629Z",
   "posts": [
     {
       "blogId": "haion_yell",
@@ -3785,6 +3785,32 @@
       "status": "live",
       "firstSeenAt": "2026-11-06T23:44:42.402Z",
       "updatedAt": "2026-11-06T23:44:42.402Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haion_yell",
+      "logNo": "224469199518",
+      "title": "유럽 여행 가기 전에 꼭 알아야하는 청년들의 시위 사건!",
+      "excerpt": "현재 유럽 여행을 준비하고 있다면 관광지와 날씨뿐 아니라 현지 시위 소식도 확인하셔야 합니다. 최근 유럽 여러 국가에서 청년들을 중심으로 대규모 시위가 이어지고 있기 때문인데요. 프랑스와 독일, 이탈리아 등 주요 관광국에서도 집회가 열리고 일부 지역에서는 경찰과 시위대가 충돌하거나 상점이 파손되는 상황까지 발생했습니다. 오늘은 유럽 청년들이 거리로 나온 이유와 국가별 시위 상황, 여행 전 주의사항까지 알아보겠습니다. 유럽 청년들은 왜 시위를 시작했을까? 이번 시위의 공통적인 배경은 청년들의 불안정한 미래입니다. 유럽에서는 주거비와 생활물가가 계속 오르면서 독립은 물론 기본적인 생활을 유지하는 것조차 부담스",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMDhfMTQw/MDAxNzk0MTE5MDk5MDk4.S7lwA2qBFBbDGN_3KMbKGy5xQBZmuz3Mais6gy4CAzsg._v7pCduHW6iG2xByy0Er9PnV7rdAf_VBip-cYi84C80g.JPEG/antonio-vivace-7TueHMKqI08-unsplash.jpg?type=w966",
+      "category": "해외핫이슈",
+      "tags": [
+        "해외여행",
+        "여행",
+        "유럽시위",
+        "유럽여행",
+        "유럽",
+        "유럽상황",
+        "파리시위",
+        "이탈리아시위",
+        "독일시위",
+        "스페인시위"
+      ],
+      "publishedAt": "2026-11-08T23:30:00.000Z",
+      "sourceUrl": "https://blog.naver.com/haion_yell/224469199518",
+      "status": "live",
+      "firstSeenAt": "2026-11-10T02:13:15.629Z",
+      "updatedAt": "2026-11-10T02:13:15.629Z",
       "removedAt": null
     }
   ]

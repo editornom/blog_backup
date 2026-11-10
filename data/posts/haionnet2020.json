@@ -1,6 +1,6 @@
 {
   "blogId": "haionnet2020",
-  "updatedAt": "2026-11-06T23:44:42.705Z",
+  "updatedAt": "2026-11-10T02:13:15.933Z",
   "posts": [
     {
       "blogId": "haionnet2020",
@@ -3665,6 +3665,32 @@
       "status": "live",
       "firstSeenAt": "2026-11-06T23:44:42.705Z",
       "updatedAt": "2026-11-06T23:44:42.705Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haionnet2020",
+      "logNo": "224469856680",
+      "title": "인터넷 연결이 끊겨도 자율주행이 가능한 이유 엣지 AI란?",
+      "excerpt": "자율주행 자동차가 터널 안이나 통신 음영 지역에 진입해 인터넷(네트워크) 연결이 완전히 끊겼음에도 불구하고 사고 없이 안전하게 주행할 수 있는 이유는 바로 엣지 AI(Edge AI) 기술 덕분입니다. 과거의 많은 IT 시스템은 방대한 데이터를 클라우드 서버로 보내 처리한 뒤 결과를 받아오는 방식을 사용했지만, 자율주행처럼 0.1초의 지연도 치명적인 사고로 이어질 수 있는 분야에서는 클라우드 의존이 큰 약점이 됩니다. 이를 극복하기 위해 등장한 핵심 기술이 바로 엣지 AI입니다. 엣지 AI의 개념과 작동 원리 엣지 AI란 데이터가 생성되는 현장(Edge), 즉 자율주행 차량 자체에 고성능 AI 프로세서(GPU, NPU 등)를 탑재하여 클라우드 서버",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMDlfMjMw/MDAxNzk0MTc5MzU5NjA0.xltiVDLEubNN6iaLD-OXjw2WFf_5zMC0roJVVP5A2iog.1X25P7UnetjvrGN5zGagLYtz9eH0v-sCZI5FQV61Q54g.JPEG/900_photo-1772171386187-bc14e6cd7804.jpg?type=w966",
+      "category": "★일상 꿀팁",
+      "tags": [
+        "ai",
+        "엣지ai",
+        "엣지ai뜻",
+        "엣지ai지원",
+        "ai종류",
+        "자율주행",
+        "엣지ai자율주행",
+        "자율주행자동차",
+        "자율주행ai",
+        "인공지능자율주행"
+      ],
+      "publishedAt": "2026-11-08T23:10:44.000Z",
+      "sourceUrl": "https://blog.naver.com/haionnet2020/224469856680",
+      "status": "live",
+      "firstSeenAt": "2026-11-10T02:13:15.933Z",
+      "updatedAt": "2026-11-10T02:13:15.933Z",
       "removedAt": null
     }
   ]

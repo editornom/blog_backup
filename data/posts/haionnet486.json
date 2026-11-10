@@ -1,6 +1,6 @@
 {
   "blogId": "haionnet486",
-  "updatedAt": "2026-11-06T23:44:41.241Z",
+  "updatedAt": "2026-11-10T02:13:14.492Z",
   "posts": [
     {
       "blogId": "haionnet486",
@@ -3681,6 +3681,42 @@
       "status": "live",
       "firstSeenAt": "2026-11-06T23:44:41.241Z",
       "updatedAt": "2026-11-06T23:44:41.241Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haionnet486",
+      "logNo": "224470324423",
+      "title": "AI 딥러닝 서버를 위한 GPU 코로케이션 선택 기준 (가성비 전력)",
+      "excerpt": "하이온넷 GPU 코로케이션은 AI 딥러닝 및 머신러닝 전용 고성능 서버를 데이터센터에 입고하여 운영하는 서비스로, 랙당 최대 100A(22kW) 이상의 고밀도 전력 공급과 집중 냉각 인프라를 통해 전력 비용 절감과 서버 안정성을 극대화하는 고전력 특화 인프라 솔루션입니다. 대규모 데이터 학습과 고성능 연산을 수행하는 AI·딥러닝 서버를 보유한 기업이라면 막대한 전기요금과 일반 IDC의 전력 공급 한계로 인한 발열 문제를 한 번쯤 겪어보셨을 것입니다. 고성능 GPU 서버는 일반 기업용 서버 대비 훨씬 높은 전력을 소비하기 때문에 전용 전력 인프라와 제어 시스템이 수반되지 않으면 서버 과열 및 다운타임이 발생할 수 있습니다. 이러한 고",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMDlfMjcg/MDAxNzk0MjAzMDQ2Mjk0.QVLC67Nv4gR3RuyXGgRcC-Fn3JFSZKSFvZBkTLsD02og.vuHA3Ry4IJbHvMi4RWRmTC9-EK7Eu-uvFTR5KHTVJTog.PNG/gpuhaionnet-power-01.png?type=w966",
+      "category": "고전력코로케이션",
+      "tags": [
+        "GPU코로케이션",
+        "AI서버호스팅",
+        "딥러닝서버",
+        "고전력코로케이션",
+        "IDC선택기준",
+        "AI인프라",
+        "서버코로케이션비용",
+        "하이온넷",
+        "서버호스팅추천",
+        "GPU서버구축",
+        "데이터센터",
+        "머신러닝서버",
+        "서버전력",
+        "고밀도코로케이션",
+        "IT인프라",
+        "서버이전",
+        "서버관제",
+        "AI개발환경",
+        "클라우드코로케이션",
+        "서버임대"
+      ],
+      "publishedAt": "2026-11-09T05:44:38.000Z",
+      "sourceUrl": "https://blog.naver.com/haionnet486/224470324423",
+      "status": "live",
+      "firstSeenAt": "2026-11-10T02:13:14.492Z",
+      "updatedAt": "2026-11-10T02:13:14.492Z",
       "removedAt": null
     }
   ]

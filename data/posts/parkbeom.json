@@ -1,6 +1,6 @@
 {
   "blogId": "parkbeom",
-  "updatedAt": "2026-11-06T00:23:16.716Z",
+  "updatedAt": "2026-11-10T02:13:16.240Z",
   "posts": [
     {
       "blogId": "parkbeom",
@@ -3679,6 +3679,32 @@
       "status": "live",
       "firstSeenAt": "2026-11-06T00:23:16.716Z",
       "updatedAt": "2026-11-06T00:23:16.716Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "parkbeom",
+      "logNo": "224469702058",
+      "title": "갤럭시폰 Z폴드 시리즈엔 어떤 AI기능이? 아는만큼 편리해져요",
+      "excerpt": "스마트폰을 바꿀 때 이제는 카메라나 배터리뿐 아니라 AI 기능도 중요한 선택 기준이 되고 있습니다. 특히 Z폴드 시리즈는 화면을 펼쳐 사용하는 구조 덕분에 검색과 통역, 문서 정리, 사진 편집처럼 화면을 넓게 활용하는 기능과 궁합이 좋은데요. 2026년에는 최신 갤럭시 Z 폴드8 시리즈까지 나오면서 AI가 단순히 질문에 답하는 수준을 넘어 화면 속 상황을 이해하고 다음 작업까지 연결하는 방향으로 발전했습니다. 오늘은 실제 Z폴드 시리즈에 적용된 갤럭시 Z 폴드 AI 기능 가운데 알아두면 일상에서 활용하기 좋은 기능을 정리해보겠습니다. 1. 화면을 펼쳐 마주 보는 듀얼 스크린 통역 폴더블폰의 장점을 가장 직관적으로 보여주는 기능",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMDlfMTI1/MDAxNzk0MTU0NTExNjE2.zG5F3oDXLlCbdt-N1QZEp19l1UploX1o6njDfbsQ6PYg.bHAaxzzg0KdqSxCbBY-XGvNceaBcGqxnkIn00SyeR1kg.JPEG/georgiy-lyamin-NvcWr1bh9bc-unsplash.jpg?type=w966",
+      "category": "일상",
+      "tags": [
+        "갤럭시AI",
+        "갤럭시Z폴드8",
+        "갤럭시Z폴드AI기능",
+        "서클투서치",
+        "실시간통역",
+        "텍스트변환어시스트",
+        "포토어시스트",
+        "제미나이라이브",
+        "노트어시스트",
+        "스마트폰AI기능"
+      ],
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "sourceUrl": "https://blog.naver.com/parkbeom/224469702058",
+      "status": "live",
+      "firstSeenAt": "2026-11-10T02:13:16.240Z",
+      "updatedAt": "2026-11-10T02:13:16.240Z",
       "removedAt": null
     }
   ]
