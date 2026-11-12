@@ -1,6 +1,6 @@
 {
   "blogId": "haionnet2020",
-  "updatedAt": "2026-11-10T02:13:15.933Z",
+  "updatedAt": "2026-11-12T01:33:59.419Z",
   "posts": [
     {
       "blogId": "haionnet2020",
@@ -3691,6 +3691,32 @@
       "status": "live",
       "firstSeenAt": "2026-11-10T02:13:15.933Z",
       "updatedAt": "2026-11-10T02:13:15.933Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haionnet2020",
+      "logNo": "224472782193",
+      "title": "내가 검색한 적도 없는데 관련 광고가 뜨는 진짜 원리는",
+      "excerpt": "검색창에 단 한번도 입력한 적이 없는 상품이나 주제가 맞춤 광고로 노출되면 \"내 스마트폰이 도청되고 있는 것 아니냐\"는 의심을 하게 됩니다. 하지만 이는 음성 도청 때문이 아니라, 현대 빅데이터 분석과 행동 추적 기술이 인간의 예측 능력을 훨씬 뛰어넘을 정도로 정교해졌기 때문입니다. 내가 검색하지 않았음에도 관련 광고가 뜨는 3가지 핵심 원리와 메커니즘은 다음과 같습니다. 1. 디지털 발자국 결합 (타깃팅 알고리즘) 우리는 검색을 하지 않았더라도 수많은 다른 디지털 발자국을 남깁니다. 광고 플랫폼(Google, Meta 등)은 이를 조합해 사용자의 다음 행동을 정확히 예측합니다. • 위치 기반 프로파일링 (위치 데이터):",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMTBfMTg2/MDAxNzk0MzAzMzM2MjI4.NwZMTYvtu79tvi6qtr6wwDcGvMKe9fTAgiKUNf5x_00g.aqVG6FOZcDPyHvHIgwRxLFy6wgVIhk0umclNASpzf6kg.JPEG/900_photo-1611926653458-09294b3142bf.jpg?type=w966",
+      "category": "★일상 꿀팁",
+      "tags": [
+        "광고",
+        "검색",
+        "검색어광고",
+        "광고가뜨는이유",
+        "연관광고",
+        "연관검색어",
+        "관련광고",
+        "스마트폰광고",
+        "네이버광고",
+        "스마트폰광고계속뜸"
+      ],
+      "publishedAt": "2026-11-11T02:52:53.000Z",
+      "sourceUrl": "https://blog.naver.com/haionnet2020/224472782193",
+      "status": "live",
+      "firstSeenAt": "2026-11-12T01:33:59.419Z",
+      "updatedAt": "2026-11-12T01:33:59.419Z",
       "removedAt": null
     }
   ]

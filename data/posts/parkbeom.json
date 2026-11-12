@@ -1,6 +1,6 @@
 {
   "blogId": "parkbeom",
-  "updatedAt": "2026-11-10T02:13:16.240Z",
+  "updatedAt": "2026-11-12T01:33:59.687Z",
   "posts": [
     {
       "blogId": "parkbeom",
@@ -3705,6 +3705,32 @@
       "status": "live",
       "firstSeenAt": "2026-11-10T02:13:16.240Z",
       "updatedAt": "2026-11-10T02:13:16.240Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "parkbeom",
+      "logNo": "224472387630",
+      "title": "애플 폴더블폰 듀오 유저들이라면 주요 AI기능 살펴보기",
+      "excerpt": "화면을 접었다 펼치는 아이폰이 현실이 됐습니다. Apple은 2026년 9월 첫 애플 폴더블폰인 iPhone Duo를 공개했고, 10월 23일부터 정식 판매를 시작했습니다. 펼치면 19.3cm 내부 디스플레이를 사용할 수 있어 기존 아이폰보다 멀티태스킹 활용도가 크게 넓어진 것이 특징입니다. 특히 아이폰 듀오는 넓은 화면과 차세대 Apple Intelligence를 결합해 단순 검색을 넘어 개인화된 AI 작업까지 지원하는데요. 오늘은 iPhone Duo에서 알아두면 편리한 주요 AI 기능을 살펴보겠습니다. 1. 내 맥락을 읽는 개인화 Siri AI 가장 큰 변화는 Siri AI입니다. 기존처럼 날씨를 묻거나 알람을 설정하는 수준을 넘어 메시지, 이메일, 사진 등에서 필요한 정보",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMTFfMjc2/MDAxNzk0MzI5NDYzMzY4.4hcqfpfWmHyrb115vTXk9GNo9kgj3rF1PPw2n_fVRIkg.70G9aXvgeNNNVxBNtXiTqvzYBU7OR7gd1AnBYs1TwN0g.JPEG/amanz-IGT_IGPvNK4-unsplash.jpg?type=w966",
+      "category": "일상",
+      "tags": [
+        "애플폴더블폰",
+        "아이폰듀오",
+        "iPhoneDuo",
+        "애플인텔리전스",
+        "SiriAI",
+        "비주얼인텔리전스",
+        "아이폰AI기능",
+        "스플릿뷰",
+        "클린업",
+        "PrivateCloudCompute"
+      ],
+      "publishedAt": "2026-11-11T00:00:00.000Z",
+      "sourceUrl": "https://blog.naver.com/parkbeom/224472387630",
+      "status": "live",
+      "firstSeenAt": "2026-11-12T01:33:59.687Z",
+      "updatedAt": "2026-11-12T01:33:59.687Z",
       "removedAt": null
     }
   ]

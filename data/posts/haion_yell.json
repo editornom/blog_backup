@@ -1,6 +1,6 @@
 {
   "blogId": "haion_yell",
-  "updatedAt": "2026-11-10T02:13:15.629Z",
+  "updatedAt": "2026-11-12T01:33:59.150Z",
   "posts": [
     {
       "blogId": "haion_yell",
@@ -3811,6 +3811,30 @@
       "status": "live",
       "firstSeenAt": "2026-11-10T02:13:15.629Z",
       "updatedAt": "2026-11-10T02:13:15.629Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haion_yell",
+      "logNo": "224472786515",
+      "title": "구청 안 가고 5분 만에 끝내는 온라인 여권 재발급 신청 방법",
+      "excerpt": "해외여행을 준비하다 보면 가장 먼저 확인하게 되는 것 중 하나가 바로 여권 유효기간입니다. 항공권과 숙소까지 예약했는데 여권 만료일이 얼마 남지 않았다면 서둘러 재발급을 받아야 하는데요. 평일에 시간을 내서 구청에 방문하고 대기하는 과정이 번거롭게 느껴질 수 있습니다. 다행히 기존에 전자여권을 발급받은 이력이 있다면 이제는 구청에 직접 방문하지 않고도 온라인으로 여권 재발급을 신청할 수 있습니다. 정부24를 이용하면 집이나 회사에서도 간편하게 신청할 수 있는데요. 오늘은 온라인 여권 재발급 대상부터 신청 방법, 준비물과 수령 방법까지 알아보겠습니다. 온라인 여권 재발급 신청 대상 온라인 여권 재발급은 기존에 전",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMTFfMiAg/MDAxNzk0MzY1NDEwMjQ3.mOwP58REFXcvbAogVhI1rTzqXv-hl2yr6IHed05K6Oog.djOAFzwWcyraKQLuTSJhOx4RO-mWGQBMM6cpZNDuI7Ag.JPEG/sookyungan-travel-2704011_1920.jpg?type=w966",
+      "category": "일상꿀팁",
+      "tags": [
+        "여권",
+        "여권재발급",
+        "여권재발급온라인",
+        "여권재발급비용",
+        "여권재발급준비물",
+        "여권재발급기간",
+        "여행",
+        "해외여행"
+      ],
+      "publishedAt": "2026-11-11T02:56:33.000Z",
+      "sourceUrl": "https://blog.naver.com/haion_yell/224472786515",
+      "status": "live",
+      "firstSeenAt": "2026-11-12T01:33:59.150Z",
+      "updatedAt": "2026-11-12T01:33:59.150Z",
       "removedAt": null
     }
   ]
