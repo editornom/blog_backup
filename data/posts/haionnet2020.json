@@ -1,6 +1,6 @@
 {
   "blogId": "haionnet2020",
-  "updatedAt": "2026-11-12T01:33:59.419Z",
+  "updatedAt": "2026-11-13T00:32:23.510Z",
   "posts": [
     {
       "blogId": "haionnet2020",
@@ -3717,6 +3717,32 @@
       "status": "live",
       "firstSeenAt": "2026-11-12T01:33:59.419Z",
       "updatedAt": "2026-11-12T01:33:59.419Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haionnet2020",
+      "logNo": "224475212368",
+      "title": "원격 근무 환경 만들 때 고정아이피가 왜 필요하죠?",
+      "excerpt": "요즘은 사무실에 출근하지 않아도 집이나 외부에서 업무를 처리하는 원격 근무가 자연스러운 일상이 되었습니다. 장소에 구애받지 않고 일할 수 있다는 장점이 있지만, 회사 내부 자료나 서버에 접근해야 하는 상황에서는 생각보다 신경 써야 할 부분이 많습니다. 특히 안정적인 연결 환경을 만들기 위해 미리 확인해야 하는 것이 바로 고정아이피인데, 하이아이피의 서버용 고정아이피 서비스를 참고하며 함께 살펴보겠습니다. 장소가 달라져도 업무는 끊기지 않아야 하니까요 재택근무를 하다 보면 회사 컴퓨터에 저장된 파일을 확인하거나 사내 NAS에 접속해야 하는 일이 종종 생깁니다. 외근 중 급하게 자료를 전달해야 할 때도 마찬가지인데",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMTNfMjQx/MDAxNzk0NTI0MjAwMTI0.GySj9bcrceh0h4-8UzVkTyBIAf3XiV9cbZFEMvJ2atAg.9a2R2ZldzrbssKEMpgAycqOD0TpeqZVqO53NJ-krD6Qg.PNG/%B4%EB%C7%A5%C0%CC%B9%CC%C1%F6.png?type=w966",
+      "category": "기간사고정/유동",
+      "tags": [
+        "아이피",
+        "고정아이피",
+        "유동아이피",
+        "기간사아이피",
+        "기간사vpn",
+        "vpn",
+        "아이피서비스",
+        "아이피주소",
+        "원격근무",
+        "원격근무고정아이피"
+      ],
+      "publishedAt": "2026-11-12T22:56:53.000Z",
+      "sourceUrl": "https://blog.naver.com/haionnet2020/224475212368",
+      "status": "live",
+      "firstSeenAt": "2026-11-13T00:32:23.510Z",
+      "updatedAt": "2026-11-13T00:32:23.510Z",
       "removedAt": null
     }
   ]

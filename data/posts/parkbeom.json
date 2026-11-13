@@ -1,6 +1,6 @@
 {
   "blogId": "parkbeom",
-  "updatedAt": "2026-11-12T01:33:59.687Z",
+  "updatedAt": "2026-11-13T00:32:23.860Z",
   "posts": [
     {
       "blogId": "parkbeom",
@@ -3731,6 +3731,33 @@
       "status": "live",
       "firstSeenAt": "2026-11-12T01:33:59.687Z",
       "updatedAt": "2026-11-12T01:33:59.687Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "parkbeom",
+      "logNo": "224474927663",
+      "title": "재택근무할 때 지정한 보안IP로 사내망에 접속하는 이유",
+      "excerpt": "재택근무 중 사내망에 접속할 때는 회사가 지정한 보안IP를 통해서만 연결하도록 관리하는 경우가 많습니다. 집에서도 회사 업무 프로그램이나 자료에 접속해야 하는 일이 늘면서, 허용되지 않은 접근을 막기 위해 특정 주소로만 내부 시스템 접속을 제한하는 방식인데요. 이메일이나 화상회의 정도는 비교적 간단하지만 ERP나 사내 시스템, 중요한 업무 자료를 다룰 때는 접속 환경에 더 신경 써야 합니다. 오늘은 재택근무 시 지정된 보안IP를 사용하는 이유와 쿨아이피 같은 고정아이피 서비스를 활용한 안전한 사내망 접속 방법을 알아보겠습니다. 재택근무에서 사내망 보안이 중요한 이유 회사에서는 업무를 위해 다양한 내부 시스템을 운영",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMTJfMTI2/MDAxNzk0NDkyNDI0MDQ0.B5KilZ63_D39vwaElvpsOgNSDSnfTk-M0UIjOvUUAS0g.Wi5F6oMvlRrLOynFPqW4ue8jNf7vUGlO9GLFSCIoO0og.PNG/%B4%EB%C7%A5%C0%CC%B9%CC%C1%F6.png?type=w966",
+      "category": "고정아이피",
+      "tags": [
+        "고정아이피",
+        "재택근무보안",
+        "사내망접속",
+        "보안IP",
+        "원격근무",
+        "접근제어",
+        "화이트리스트",
+        "업무자료보호",
+        "이중인증",
+        "KT백본망",
+        "쿨아이피"
+      ],
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "sourceUrl": "https://blog.naver.com/parkbeom/224474927663",
+      "status": "live",
+      "firstSeenAt": "2026-11-13T00:32:23.860Z",
+      "updatedAt": "2026-11-13T00:32:23.860Z",
       "removedAt": null
     }
   ]
