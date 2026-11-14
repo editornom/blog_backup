@@ -1,6 +1,6 @@
 {
   "blogId": "momoip1",
-  "updatedAt": "2026-11-11T00:05:01.804Z",
+  "updatedAt": "2026-11-14T00:21:58.797Z",
   "posts": [
     {
       "blogId": "momoip1",
@@ -3607,6 +3607,47 @@
       "status": "live",
       "firstSeenAt": "2026-11-11T00:05:01.804Z",
       "updatedAt": "2026-11-11T00:05:01.804Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "momoip1",
+      "logNo": "224475341601",
+      "title": "공짜 VPN 무료앱 놓치기 쉬운 보안문제와 개인정보 관리까지",
+      "excerpt": "무료로 사용할 수 있는 보안 앱이라면 부담 없이 설치하게 되지만, 그 과정에서 개인정보가 어떻게 처리되는지까지 살펴보는 경우는 많지 않습니다. 특히 인터넷 접속 기록이나 기기 정보가 수집될 가능성도 있어 사용하기 전에 몇 가지 확인해야 할 부분이 있습니다. 오늘은 무료 프로그램을 이용할 때 놓치기 쉬운 보안 문제와, 모모아이피처럼 검증된 서비스로 개인정보를 관리하는 방법을 함께 정리해 보겠습니다. 공짜로 제공되는 앱, 운영 비용은 어디서 나올까? 인터넷에서 필요한 프로그램을 찾다 보면 무료라는 문구에 먼저 눈길이 갑니다. 유료 결제를 하지 않아도 기본 기능을 사용할 수 있고, 설치 과정도 간단하니 굳이 다른 상품을",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMTNfMTI0/MDAxNzk0NTMxNzg5NjQ1.rm5D8JZFQRDtSXSMnFrS7NIF1ybn6-ocx-SopQsCTEMg.i6TMYuyK5GJQHN-y8Q9tHOFer2LSeofknnDbgQo78esg.PNG/%B0%F8%C2%A5VPN%BA%B8%BE%C8%B9%AE%C1%A6%BF%CD%B0%B3%C0%CE%C1%A4%BA%B8.png?type=w966",
+      "category": "VPN활용",
+      "tags": [
+        "VPN",
+        "VPN사용법",
+        "VPN설정",
+        "VPN추천",
+        "유료VPN",
+        "무료VPN",
+        "고정IP",
+        "고정아이피",
+        "해외IP",
+        "해외아이피",
+        "IP주소변경",
+        "아이피변경",
+        "IP우회",
+        "해외접속",
+        "인터넷보안",
+        "개인정보보호",
+        "네트워크보안",
+        "공공와이파이보안",
+        "접속보안",
+        "원격근무",
+        "재택근무",
+        "해외사이트접속",
+        "인터넷접속",
+        "보안설정",
+        "VPN프로그램"
+      ],
+      "publishedAt": "2026-11-13T01:04:11.000Z",
+      "sourceUrl": "https://blog.naver.com/momoip1/224475341601",
+      "status": "live",
+      "firstSeenAt": "2026-11-14T00:21:58.797Z",
+      "updatedAt": "2026-11-14T00:21:58.797Z",
       "removedAt": null
     }
   ]

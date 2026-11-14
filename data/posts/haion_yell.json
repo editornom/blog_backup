@@ -1,6 +1,6 @@
 {
   "blogId": "haion_yell",
-  "updatedAt": "2026-11-12T01:33:59.150Z",
+  "updatedAt": "2026-11-14T00:21:57.765Z",
   "posts": [
     {
       "blogId": "haion_yell",
@@ -3835,6 +3835,30 @@
       "status": "live",
       "firstSeenAt": "2026-11-12T01:33:59.150Z",
       "updatedAt": "2026-11-12T01:33:59.150Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haion_yell",
+      "logNo": "224474685242",
+      "title": "유럽이나 미국 일본에서 안 되는 한국OTT 온라인뱅킹 접속방법",
+      "excerpt": "해외여행을 떠나면 평소와 다른 인터넷 환경 때문에 불편한 순간이 생기곤 합니다. 특히 한국에서 자주 이용하던 OTT나 은행 사이트가 갑자기 접속되지 않는다면 당황스러울 텐데요. 실제로 이러한 경우가 많기 때문에 유럽이나 미국, 일본에서도 하이온글로벌 같은 서비스를 통해 국내 서비스를 이용할 수 있는 방법을 미리 알아두는 게 좋습니다. 해외에서는 한국 OTT 이용이 제한될까? 여행을 가면 낮에는 관광하고 맛있는 음식도 먹으며 시간을 보내지만, 저녁에는 숙소에서 편하게 쉬는 시간이 기다려지죠. 저도 이런 시간 무척 좋아하는데요! 이때 평소 즐겨 보던 한국 드라마나 예능을 시청하려고 OTT에 접속했는데 원하는 콘텐츠가 보이",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMTJfMTYz/MDAxNzk0NDc5MDI0Mzcy.7O2a-tY0dHZy6bAjnjDVVdIzRATa9Nzesxf0aug2-bYg.A2FO415XtzyBGnlucGhkGR4B1HG7cDZVH4yqME4RlGkg.PNG/%B4%EB%C7%A5%C0%CC%B9%CC%C1%F6.png?type=w966",
+      "category": "글로벌VPN",
+      "tags": [
+        "하이온글로벌",
+        "vpn",
+        "컴퓨터VPN",
+        "VPN다운로드",
+        "VPN사용법",
+        "VPN이란",
+        "해외여행",
+        "해외여행준비물"
+      ],
+      "publishedAt": "2026-11-13T00:30:00.000Z",
+      "sourceUrl": "https://blog.naver.com/haion_yell/224474685242",
+      "status": "live",
+      "firstSeenAt": "2026-11-14T00:21:57.765Z",
+      "updatedAt": "2026-11-14T00:21:57.765Z",
       "removedAt": null
     }
   ]
