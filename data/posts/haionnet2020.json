@@ -1,6 +1,6 @@
 {
   "blogId": "haionnet2020",
-  "updatedAt": "2026-11-13T00:32:23.510Z",
+  "updatedAt": "2026-11-15T23:24:49.010Z",
   "posts": [
     {
       "blogId": "haionnet2020",
@@ -3743,6 +3743,33 @@
       "status": "live",
       "firstSeenAt": "2026-11-13T00:32:23.510Z",
       "updatedAt": "2026-11-13T00:32:23.510Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haionnet2020",
+      "logNo": "224478630230",
+      "title": "홈캠 해킹 예방법 총정리 실제 수법과 1분 보안 점검하기",
+      "excerpt": "반려동물과 아이의 안전을 지키기 위해 설치한 홈캠이 오히려 사생활 유출의 통로가 되는 해킹 사고가 끊이지 않고 있습니다. 해커들은 사소한 보안 허점을 파고들어 집 안의 일상을 실시간으로 엿보거나 영상을 유포하는 범죄를 저지릅니다. 소중한 가족의 일상을 안전하게 보호하기 위해 실제 해킹 수법을 정확히 이해하고 지금 당장 실천할 수 있는 보안 점검 방법을 확인해 보시기 바랍니다. 홈캠 해킹의 실제 주요 수법 • 초기 및 단순 비밀번호 무차별 대입: 제품 구매 시 설정된 기본 계정 정보를 바꾸지 않거나, 생년월일 및 연속된 숫자처럼 추측하기 쉬운 비밀번호를 사용하면 자동화 프로그램에 수 초 만에 뚫립니다. • 오래된 펌웨",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMTZfMjgg/MDAxNzk0Nzg0MjYwNzY5.xpj8YeF6IuVj4NqtybPKpPVxPS3BwtFIodCnyP_tzLgg.16wM2QWKqBjOzWVPgvMa7luoeT3cz975g1KA2dpUwPYg.JPEG/900_photo-1722488359737-7a9b8a8436c7.jpg?type=w966",
+      "category": "★일상 꿀팁",
+      "tags": [
+        "해킹",
+        "해킹예방",
+        "홈캠해킹",
+        "홈캠해킹예방",
+        "해킹증상",
+        "해킹예방하기",
+        "홈캠해킹방지",
+        "해킹검사",
+        "해킹피해",
+        "해킹사례",
+        "해킹사고"
+      ],
+      "publishedAt": "2026-11-15T23:12:02.000Z",
+      "sourceUrl": "https://blog.naver.com/haionnet2020/224478630230",
+      "status": "live",
+      "firstSeenAt": "2026-11-15T23:24:49.010Z",
+      "updatedAt": "2026-11-15T23:24:49.010Z",
       "removedAt": null
     }
   ]
