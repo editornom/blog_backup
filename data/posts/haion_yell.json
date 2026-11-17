@@ -1,6 +1,6 @@
 {
   "blogId": "haion_yell",
-  "updatedAt": "2026-11-14T00:21:57.765Z",
+  "updatedAt": "2026-11-17T02:30:20.284Z",
   "posts": [
     {
       "blogId": "haion_yell",
@@ -3859,6 +3859,55 @@
       "status": "live",
       "firstSeenAt": "2026-11-14T00:21:57.765Z",
       "updatedAt": "2026-11-14T00:21:57.765Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haion_yell",
+      "logNo": "224480130936",
+      "title": "해외VPN 추천 한국IP 변경으로 넷플릭스 티빙 속도 높이는 방법",
+      "excerpt": "해외에서도 끊김 없이 넷플릭스와 티빙을 보려면 한국IP로 접속 환경을 바꿔보는 것이 가장 확실한 방법입니다. 해외에 나가면 평소 아무렇지 않게 사용하던 인터넷 서비스도 예상치 못한 불편을 겪을 때가 있습니다. 넷플릭스나 티빙의 콘텐츠 구성이 달라지기도 하고, 국내에서 이용하던 사이트에 접속하기 어려운 경우도 있습니다. 저도 여행지에서 '나는솔로'를 보려고 하다가 해외에서는 시청할 수 없어 당황했던 경험이 있는데요. 한국 서버 연결을 지원하는 서비스를 활용하면 이런 불편을 줄일 수 있습니다. 그럼 해외에서도 익숙한 인터넷 환경을 유지하면서 속도까지 안정적으로 챙기는 방법을 구체적으로 알아보겠습니다. 해",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMTdfMjU2/MDAxNzk0ODc0Nzc2NjQz.gE22aJMFgEW7466r7qC5LqzaWznfPSuB0JgF9T2Br2Ig.16eCesvbklKxLjNkhD49Be50jb_dHk2OviWU_3mb3vkg.PNG/%B4%EB%C7%A5%C0%CC%B9%CC%C1%F6.png?type=w966",
+      "category": "해외VPN",
+      "tags": [
+        "넷플릭스",
+        "하이아이피",
+        "해외여행",
+        "여행",
+        "해외여행준비물",
+        "vpn",
+        "컴퓨터VPN",
+        "VPN다운로드",
+        "VPN이란",
+        "vpn추천"
+      ],
+      "publishedAt": "2026-11-17T00:23:02.000Z",
+      "sourceUrl": "https://blog.naver.com/haion_yell/224480130936",
+      "status": "live",
+      "firstSeenAt": "2026-11-17T02:30:20.284Z",
+      "updatedAt": "2026-11-17T02:30:20.284Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haion_yell",
+      "logNo": "224477842063",
+      "title": "아직도 블로그만 보세요? 여행코스짤때 AI검색 200% 활용하기",
+      "excerpt": "여행을 준비할 때 가장 먼저 하는 일 중 하나가 바로 여행 코스를 짜는 것입니다. 가고 싶은 관광지를 찾아보고, 맛집과 카페를 검색하고, 이동 동선까지 하나하나 확인하다 보면 생각보다 많은 시간이 필요한데요. 예전에는 블로그나 카페 후기를 여러 개 찾아보면서 정보를 모았다면, 요즘은 AI 검색을 활용해 훨씬 간편하게 여행 계획을 세울 수 있습니다. 원하는 조건만 구체적으로 입력하면 여행 일정부터 이동 동선, 맛집 추천까지 한 번에 정리할 수 있기 때문인데요. 오늘은 여행 준비 시간을 줄여주는 AI 검색 활용법과 실제로 여행 코스를 짤 때 유용하게 사용할 수 있는 방법을 소개해 드리겠습니다. 여행 일정과 코스 한 번에 만들기",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMTVfMjc2/MDAxNzk0NzE5NzY0MTUx.-9XUXnH-p_0rbSlsXhqUMaRWFJyA2sVGFtWZ3TRc3Zwg.jXIjhrl3E_VxKD7Z83I-c0-ISzZp6_fbxwahTzPOy0Ag.JPEG/wal_172619-train-7859021_1920.jpg?type=w966",
+      "category": "해외핫이슈",
+      "tags": [
+        "해외여행",
+        "해외여행계획",
+        "ai",
+        "해외",
+        "여행",
+        "여행준비",
+        "ai활용"
+      ],
+      "publishedAt": "2026-11-16T00:20:00.000Z",
+      "sourceUrl": "https://blog.naver.com/haion_yell/224477842063",
+      "status": "live",
+      "firstSeenAt": "2026-11-17T02:30:20.284Z",
+      "updatedAt": "2026-11-17T02:30:20.284Z",
       "removedAt": null
     }
   ]

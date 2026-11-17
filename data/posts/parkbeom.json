@@ -1,6 +1,6 @@
 {
   "blogId": "parkbeom",
-  "updatedAt": "2026-11-13T00:32:23.860Z",
+  "updatedAt": "2026-11-17T02:30:20.836Z",
   "posts": [
     {
       "blogId": "parkbeom",
@@ -3758,6 +3758,59 @@
       "status": "live",
       "firstSeenAt": "2026-11-13T00:32:23.860Z",
       "updatedAt": "2026-11-13T00:32:23.860Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "parkbeom",
+      "logNo": "224479716187",
+      "title": "고정아이피 COOLIP에서 배우는 자세한 설정 방법",
+      "excerpt": "회사 업무나 원격접속을 위해 일정한 인터넷 주소가 필요할 때가 있습니다. 평소에는 신경 쓰지 않아도 되지만, 특정 주소만 접속할 수 있는 업무 시스템이나 서버를 이용해야 한다면 별도 설정이 필요할 수 있는데요. 처음에는 네트워크 관련 용어부터 어렵게 느껴집니다. 프로그램을 설치해야 하는지, 컴퓨터 설정을 직접 변경해야 하는지, 연결 후에는 무엇을 확인해야 하는지도 궁금해지죠. 하지만 고정아이피 설정은 기본적인 순서만 이해하면 생각보다 간단하게 진행할 수 있습니다. 오늘은 쿨아이피를 기준으로 회원가입부터 프로그램 설치, 연결 확인까지 자세히 알아보겠습니다. 고정아이피 설정 전 알아둘 점 고정아이피는 일정한 외부",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMTZfMTQ3/MDAxNzk0ODM1NDMzMDY0.dKQT_IS6ovTZsv7H2GobR1gLTS4JouU2VzVT1z188Fwg.EJMB03GUqeEVs22jvybugPGhWrI4MIxQqtYWWzoTJbMg.PNG/%B4%EB%C7%A5%C0%CC%B9%CC%C1%F6.png?type=w966",
+      "category": "고정아이피",
+      "tags": [
+        "고정아이피",
+        "고정IP설정",
+        "IP주소확인",
+        "프로그램설치",
+        "원격접속",
+        "네트워크설정",
+        "윈도우설정",
+        "접속오류",
+        "KT백본망",
+        "무료테스트",
+        "쿨아이피"
+      ],
+      "publishedAt": "2026-11-17T00:00:00.000Z",
+      "sourceUrl": "https://blog.naver.com/parkbeom/224479716187",
+      "status": "live",
+      "firstSeenAt": "2026-11-17T02:30:20.836Z",
+      "updatedAt": "2026-11-17T02:30:20.836Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "parkbeom",
+      "logNo": "224477405291",
+      "title": "검색 광고의 새로운시대 챗GPT 대화형 광고 핵심 및 마케터 대응법",
+      "excerpt": "인터넷에서 상품을 찾는 방법이 달라지고 있습니다. 예전에는 검색창에 ‘노트북 추천’, ‘제주 호텔’처럼 짧은 키워드를 입력했다면 이제는 AI에게 “출장이 많아서 가볍고 150만원 이하인 노트북 추천해줘”처럼 구체적인 조건을 이야기하며 선택지를 좁히기도 합니다. 이런 변화와 함께 광고도 단순한 키워드 매칭을 넘어 사용자가 무엇을 원하는지 이해하는 방향으로 발전하고 있는데요. 2026년 8월부터 한국에서도 ChatGPT 광고가 정식 출시되면서 검색광고 시장에도 새로운 변화가 시작됐습니다. 1. 키워드보다 ‘대화 맥락’을 보는 광고 기존 검색광고에서는 사용자가 입력한 검색어가 중요한 기준이었습니다. 반면 대화형 광고는 한두",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMTVfMjg4/MDAxNzk0NjczMzYzMjUz.idqb0qIOVURHkNqU9V2H7VHSuwSWRvsSVWpTip_nEMcg.-XWqZyUL4XmUwHuV5s437aoDNWVms_JXyYLhc-3JDkkg.JPEG/solen-feyissa-Aj7cDaR6QXs-unsplash.jpg?type=w966",
+      "category": "일상",
+      "tags": [
+        "ChatGPT광고",
+        "대화형광고",
+        "AI검색광고",
+        "생성형AI광고",
+        "검색광고변화",
+        "광고타겟팅",
+        "대화맥락",
+        "광고개인화",
+        "ChatGPTAds",
+        "마케터전략"
+      ],
+      "publishedAt": "2026-11-16T00:00:00.000Z",
+      "sourceUrl": "https://blog.naver.com/parkbeom/224477405291",
+      "status": "live",
+      "firstSeenAt": "2026-11-17T02:30:20.836Z",
+      "updatedAt": "2026-11-17T02:30:20.836Z",
       "removedAt": null
     }
   ]

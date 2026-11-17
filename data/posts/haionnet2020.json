@@ -1,6 +1,6 @@
 {
   "blogId": "haionnet2020",
-  "updatedAt": "2026-11-15T23:24:49.010Z",
+  "updatedAt": "2026-11-17T02:30:20.545Z",
   "posts": [
     {
       "blogId": "haionnet2020",
@@ -3770,6 +3770,42 @@
       "status": "live",
       "firstSeenAt": "2026-11-15T23:24:49.010Z",
       "updatedAt": "2026-11-15T23:24:49.010Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haionnet2020",
+      "logNo": "224480103435",
+      "title": "네이버 구글 AI검색 목적에 따라 골라쓰는 검색활용법",
+      "excerpt": "궁금한 게 생기면 가장 먼저 검색창을 열게 됩니다. 요즘은 선택지가 예전보다 훨씬 다양해졌는데요. 네이버와 구글 외에도 챗봇형 AI검색까지 익숙해진 분들이 많을 텐데요. 사실 셋 다 \"검색\"이라는 이름으로 묶여 있습니다. 하지만 목적에 따라 결과물의 쓸모가 꽤 다르게 느껴지는 경우가 많습니다. 오늘은 네이버와 구글, AI검색을 어떤 상황에서 골라 쓰면 좋을지 간단히 정리해 보겠습니다. 일상 정보는 역시 네이버가 편한 이유 맛집, 병원, 동네 소식처럼 생활 밀착형 정보를 찾을 때는 네이버가 여전히 강점을 보입니다. 블로그 리뷰나 지도 연동 정보, 실시간 커뮤니티 반응까지 한 화면에서 볼 수 있다는 점이 큰데요. 특",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMTdfNzMg/MDAxNzk0ODcyNTQyNDQy.G7UtRFakmZJZ2xYESXBZhaFkjch9NTUcqJk4xAQNP8Ag.WITsO1pqVG-utTVQ_fqJ4VYPL0e7W1vuiPJn9VIm2fMg.JPEG/twi001t3393064_l.jpg?type=w966",
+      "category": "★일상 꿀팁",
+      "tags": [
+        "검색활용법",
+        "네이버검색",
+        "구글검색",
+        "AI검색",
+        "검색엔진비교",
+        "검색엔진추천",
+        "정보검색팁",
+        "검색습관",
+        "검색노하우",
+        "생활정보검색",
+        "해외자료검색",
+        "전문자료검색",
+        "챗봇검색",
+        "검색엔진특징",
+        "정보찾기",
+        "검색엔진활용",
+        "스마트검색",
+        "검색꿀팁",
+        "검색엔진선택",
+        "온라인검색"
+      ],
+      "publishedAt": "2026-11-16T23:57:34.000Z",
+      "sourceUrl": "https://blog.naver.com/haionnet2020/224480103435",
+      "status": "live",
+      "firstSeenAt": "2026-11-17T02:30:20.545Z",
+      "updatedAt": "2026-11-17T02:30:20.545Z",
       "removedAt": null
     }
   ]
