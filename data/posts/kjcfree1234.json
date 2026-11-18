@@ -1,6 +1,6 @@
 {
   "blogId": "kjcfree1234",
-  "updatedAt": "2026-11-10T02:13:17.103Z",
+  "updatedAt": "2026-11-18T01:40:11.840Z",
   "posts": [
     {
       "blogId": "kjcfree1234",
@@ -4320,6 +4320,29 @@
       "status": "live",
       "firstSeenAt": "2026-11-10T02:13:17.103Z",
       "updatedAt": "2026-11-10T02:13:17.103Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "kjcfree1234",
+      "logNo": "224480464990",
+      "title": "직장인들이 놓치기 쉬운 숨은 사내 복지제도 점검 및 100% 활용 가이드",
+      "excerpt": "직장 생활을 하다 보면 매일 반복되는 업무와 바쁜 일정에 치여 회사에서 제공하는 복지 혜택을 제대로 챙기지 못하는 경우가 많습니다. 월급이나 연차처럼 눈에 잘 보이는 혜택은 꼼꼼하게 챙기지만 정작 활용할 수 있는 사내 복지제도는 모르고 지나치는 직장인도 적지 않은데요. 사실 회사 복지는 단순히 급여 외에 제공되는 부가 혜택이 아닙니다. 자기계발 비용부터 건강검진, 도서 구입비, 보험료 지원까지 잘 활용하면 개인적으로 지출해야 하는 비용을 줄이고 직장 생활의 만족도도 높일 수 있습니다. 오늘은 직장인들이 놓치기 쉬운 대표적인 사내 복지제도와 함께, 숨겨진 혜택까지 확인해보겠습니다! 1. 자기계발비 및 어학·자격증 지",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMTdfMTUz/MDAxNzk0ODg5NDExMzY2.QPKlmgQ1fdFf7PkSCgHw50RqqKNiDvOxlIgHN5VQu8wg.oAHL8eJNMUkp5AlZp7Fe5VcnOUzEHwQhyAFhyhTE-8Mg.JPEG/pexels-woman-1851464_1920.jpg?type=w966",
+      "category": "일상꿀팁",
+      "tags": [
+        "사내복지제도",
+        "사내복지",
+        "직장인",
+        "회사",
+        "기업",
+        "직장인복지혜택",
+        "회사원"
+      ],
+      "publishedAt": "2026-11-17T04:31:10.000Z",
+      "sourceUrl": "https://blog.naver.com/kjcfree1234/224480464990",
+      "status": "live",
+      "firstSeenAt": "2026-11-18T01:40:11.840Z",
+      "updatedAt": "2026-11-18T01:40:11.840Z",
       "removedAt": null
     }
   ]

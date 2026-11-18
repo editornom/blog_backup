@@ -1,6 +1,6 @@
 {
   "blogId": "haionnet486",
-  "updatedAt": "2026-11-10T02:13:14.492Z",
+  "updatedAt": "2026-11-18T01:40:09.275Z",
   "posts": [
     {
       "blogId": "haionnet486",
@@ -3717,6 +3717,46 @@
       "status": "live",
       "firstSeenAt": "2026-11-10T02:13:14.492Z",
       "updatedAt": "2026-11-10T02:13:14.492Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haionnet486",
+      "logNo": "224480758128",
+      "title": "내 지갑 속 카드가 해외에서 결제됐다? NFC 릴레이 해킹의 실체",
+      "excerpt": "신용카드는 분명 내 지갑 속에 있는데, 사용한 적 없는 장소에서 결제 알림이 온다면 어떨까요? 카드를 잃어버리지 않았는데도 결제 정보가 악용될 수 있다는 사실이 낯설게 느껴질 텐데요. 최근 사이버 보안 분야에서는 NFC 릴레이 해킹이라는 공격 방식이 주목받고 있습니다. 스마트폰 근거리 무선통신 기능을 악용해 카드와 결제 단말기 사이의 통신을 다른 장소로 전달하는 방식입니다. 그렇다면 실제로 어떤 원리로 작동하며, 우리가 주의해야 할 부분은 무엇일까요? 스마트폰 NFC는 어떤 기능일까요? NFC는 'Near Field Communication'의 약자로, 가까운 거리에 있는 기기끼리 무선으로 정보를 주고받는 기술을 의미합니다. 교통",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMTdfMTc1/MDAxNzk0OTAxODUzODM3.XucUGcJ8LRHFixpe3qC3zfkw6lUYlsTJcegCemrodFEg.Dcvjv1lYmIL8fDU9TPxBmlOnLesP6u75cBaoAxXyVzkg.PNG/%C7%D8%BF%DC_%B0%E1%C1%A6_NFC_%B8%B1%B7%B9%C0%CC_%C7%D8%C5%B7.png?type=w966",
+      "category": "일상",
+      "tags": [
+        "nfc뜻",
+        "NFC릴레이해킹",
+        "스마트폰NFC",
+        "카드부정결제",
+        "해외결제피해",
+        "NFC해킹예방법",
+        "스마트폰해킹",
+        "NFC보안",
+        "신용카드해킹",
+        "개인정보보호",
+        "스마트폰보안",
+        "금융사기예방",
+        "악성앱주의",
+        "피싱예방",
+        "NGate악성코드",
+        "IT보안뉴스",
+        "카드도용",
+        "나도모르게결제",
+        "해외결제차단",
+        "해외결제문자",
+        "nfc결제",
+        "핸드폰해킹",
+        "해킹당했을때",
+        "신용카드도용"
+      ],
+      "publishedAt": "2026-11-17T07:57:02.000Z",
+      "sourceUrl": "https://blog.naver.com/haionnet486/224480758128",
+      "status": "live",
+      "firstSeenAt": "2026-11-18T01:40:09.275Z",
+      "updatedAt": "2026-11-18T01:40:09.275Z",
       "removedAt": null
     }
   ]
