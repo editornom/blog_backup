@@ -1,6 +1,6 @@
 {
   "blogId": "haionnet2020",
-  "updatedAt": "2026-11-17T02:30:20.545Z",
+  "updatedAt": "2026-11-19T01:16:42.068Z",
   "posts": [
     {
       "blogId": "haionnet2020",
@@ -3806,6 +3806,30 @@
       "status": "live",
       "firstSeenAt": "2026-11-17T02:30:20.545Z",
       "updatedAt": "2026-11-17T02:30:20.545Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haionnet2020",
+      "logNo": "224481838918",
+      "title": "유동아이피 언제 사용하는걸까 하이IP 설정방법",
+      "excerpt": "아이피 주소는 크게 두 가지 방식으로 나뉘는데, 접속할 때마다 주소가 바뀌는 유동아이피와 한 번 배정된 주소를 계속 사용하는 고정아이피로 구분됩니다. 평소에는 어떤 방식을 쓰고 있는지 신경 쓸 일이 거의 없지만, 특정 작업을 반복해야 하는 상황이 되면 이 차이가 꽤 중요하게 느껴지는데요. 오늘은 유동아이피는 어떤 상황에서 쓰면 좋은지, 그리고 하이IP에서 설정은 어떤 흐름으로 진행되는지 함께 알아보겠습니다. 유동아이피와 고정아이피, 어떻게 다를까 유동아이피는 인터넷에 접속할 때마다 통신사 네트워크 환경에 따라 주소가 새로 할당되는 방식입니다. 그래서 같은 기기로 접속해도 시점에 따라 다른 주소로 인식될 수 있는",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMTdfNjgg/MDAxNzk0OTA4NDc1MDU1.OoYlDvIGikYSgAXJSNZR9D-QwWi2GJao2nVxVi3wCWAg.e4RQcNM_YqRB71hvkPsQQJ_mmqvAF4C1QRSf86imeUYg.PNG/%B4%EB%C7%A5%C0%CC%B9%CC%C1%F6.png?type=w966",
+      "category": "기간사고정/유동",
+      "tags": [
+        "아이피",
+        "아이피서비스",
+        "고정아이피",
+        "유동아이피",
+        "기간사아이피",
+        "기간사유동아이피",
+        "아이피주소",
+        "마케팅아이피"
+      ],
+      "publishedAt": "2026-11-18T03:36:41.000Z",
+      "sourceUrl": "https://blog.naver.com/haionnet2020/224481838918",
+      "status": "live",
+      "firstSeenAt": "2026-11-19T01:16:42.068Z",
+      "updatedAt": "2026-11-19T01:16:42.068Z",
       "removedAt": null
     }
   ]

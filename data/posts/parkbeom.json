@@ -1,6 +1,6 @@
 {
   "blogId": "parkbeom",
-  "updatedAt": "2026-11-17T02:30:20.836Z",
+  "updatedAt": "2026-11-19T01:16:42.304Z",
   "posts": [
     {
       "blogId": "parkbeom",
@@ -3811,6 +3811,32 @@
       "status": "live",
       "firstSeenAt": "2026-11-17T02:30:20.836Z",
       "updatedAt": "2026-11-17T02:30:20.836Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "parkbeom",
+      "logNo": "224482720138",
+      "title": "2027 최대 보안 위협 데이터유출보다 무서운 자율형 AI에이전트 해킹",
+      "excerpt": "기업의 보안 사고라고 하면 흔히 고객 정보나 계정 비밀번호가 외부로 빠져나가는 데이터 유출부터 떠올립니다. 하지만 AI가 질문에 답하는 도구를 넘어 이메일을 보내고, 파일을 수정하고, 여러 시스템을 직접 실행하는 단계로 발전하면서 새로운 위험이 커지고 있습니다. 바로 자율형 AI 에이전트의 권한이 공격자에게 악용되는 상황입니다. 2027년의 ‘최대’ 위협으로 확정됐다고 단정할 수는 없지만, OWASP가 Agentic Applications 전용 보안 위험 목록과 방어 가이드를 별도로 내놓을 정도로 AI 에이전트 보안은 빠르게 중요한 영역으로 떠오르고 있습니다. 1. 챗봇과 AI 에이전트는 무엇이 다를까? 기존 챗봇은 사용자의 질문에 답변을 생",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMTlfMTAw/MDAxNzk1MDE0OTc1NDYz.LPtdgktgvIgWnrWXJ2zF3sASea7tXuF8AX54Xgkw7N4g.5Z0US7xHCMsCzgocY149vnKE51R7FL2nOxQsKqExV_Qg.JPEG/dan-nelson-ah-HeguOe9k-unsplash.jpg?type=w966",
+      "category": "일상",
+      "tags": [
+        "AI에이전트보안",
+        "자율형AI",
+        "AI해킹",
+        "프롬프트인젝션",
+        "간접프롬프트인젝션",
+        "AI보안위협",
+        "최소권한원칙",
+        "AI권한관리",
+        "HumanInTheLoop",
+        "2027보안트렌드"
+      ],
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "sourceUrl": "https://blog.naver.com/parkbeom/224482720138",
+      "status": "live",
+      "firstSeenAt": "2026-11-19T01:16:42.304Z",
+      "updatedAt": "2026-11-19T01:16:42.304Z",
       "removedAt": null
     }
   ]

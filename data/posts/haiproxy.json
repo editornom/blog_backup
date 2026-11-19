@@ -1,6 +1,6 @@
 {
   "blogId": "haiproxy",
-  "updatedAt": "2026-11-06T23:44:43.586Z",
+  "updatedAt": "2026-11-19T01:16:42.749Z",
   "posts": [
     {
       "blogId": "haiproxy",
@@ -4261,6 +4261,29 @@
       "status": "live",
       "firstSeenAt": "2026-11-06T23:44:43.586Z",
       "updatedAt": "2026-11-06T23:44:43.586Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haiproxy",
+      "logNo": "224481844280",
+      "title": "고정아이피 사용 전 알아야한 보안 주의사항 및 세팅 꿀팁",
+      "excerpt": "인터넷을 이용하다 보면 평소와 다르게 접속이 제한되거나, 원격 업무 중 네트워크가 불안정해지는 상황을 경험할 때가 있습니다. 특히 특정 환경에서 꾸준히 인터넷을 사용해야 한다면 접속 안정성과 보안 설정을 미리 점검하는 것이 중요한데요. 오늘은 고정아이피를 사용하기 전 알아두면 좋은 주의사항과 간단한 세팅 방법을 소개해 보겠습니다. 1. 사용 목적부터 정확하게 정하기 인터넷 접속 환경을 설정하기 전 가장 먼저 해야 할 일은 사용 목적을 정하는 것입니다. 개인적인 원격 업무인지, 회사 내부 시스템 접속인지, 블로그나 온라인 콘텐츠 관리인지에 따라 필요한 네트워크 여건이 달라질 수 있기 때문인데요. 여러 기기에서 동일",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMTdfMjU5/MDAxNzk0ODcwMTg1MDk4.ci4PciIJHCn20ZivKkGr17Dj2vIJOMSosEdn2wA6dogg.UmW0iUo6fA21WX9WDfOnJq4bwyAGj9CQ7zCbx-Q0_b8g.PNG/%B4%EB%C7%A5%C0%CC%B9%CC%C1%F6.png?type=w966",
+      "category": "고정아이피",
+      "tags": [
+        "고정아이피",
+        "고정아이피보안",
+        "고정아이피서비스",
+        "아이피",
+        "아이피서비스",
+        "아이피주소",
+        "아이피변경"
+      ],
+      "publishedAt": "2026-11-18T03:41:08.000Z",
+      "sourceUrl": "https://blog.naver.com/haiproxy/224481844280",
+      "status": "live",
+      "firstSeenAt": "2026-11-19T01:16:42.749Z",
+      "updatedAt": "2026-11-19T01:16:42.749Z",
       "removedAt": null
     }
   ]

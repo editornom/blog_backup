@@ -1,6 +1,6 @@
 {
   "blogId": "momoip1",
-  "updatedAt": "2026-11-17T02:30:21.098Z",
+  "updatedAt": "2026-11-19T01:16:42.521Z",
   "posts": [
     {
       "blogId": "momoip1",
@@ -3710,6 +3710,38 @@
       "status": "live",
       "firstSeenAt": "2026-11-17T02:30:21.098Z",
       "updatedAt": "2026-11-17T02:30:21.098Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "momoip1",
+      "logNo": "224483057392",
+      "title": "화면 밖으로 나온 요즘 AI로봇 우리 실생활 어디까지 들어왔을까?",
+      "excerpt": "불과 몇 년 전까지만 해도 AI는 스마트폰이나 컴퓨터 화면 속에서 글을 작성하거나 질문에 답하는 기술로 인식되었습니다. 하지만 2026년 현재, AI는 물리적인 몸체를 갖추고 현실 세계에서 직접 움직이는 로봇 기술로 발전하고 있습니다. 공장에서 부품을 옮기는 휴머노이드 로봇부터 식당의 서빙 로봇, 병원의 의료 로봇까지 활용 분야도 점차 다양해지고 있는데요. 그렇다면 요즘 AI로봇은 실제 생활 속에서 어떤 역할을 하고 있으며, 기술은 어느 단계까지 발전했을까요? 제조·물류 현장, 사람의 작업을 분담하는 AI로봇 AI로봇의 활용이 활발하게 논의되는 분야 중 하나는 자동차 제조 공장과 대형 물류센터입니다. 기존 산업용 로봇은 정해",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMTlfMTkw/MDAxNzk1MDQ5NDc2MzI0.PXhuk1qidAkdES-nHpWrhLz6ljxEpIm96a91xuXzoakg.UO8pqUh5AiVjVT_1euE88pzHyPVZrEIk0dTv-IGfrtcg.PNG/1.png?type=w966",
+      "category": "IT이슈",
+      "tags": [
+        "AI로봇",
+        "요즘AI로봇",
+        "인공지능로봇",
+        "휴머노이드로봇",
+        "생활속AI",
+        "로봇기술",
+        "미래기술",
+        "AI기술",
+        "인공지능",
+        "로봇산업",
+        "AI시대",
+        "로봇시대",
+        "첨단기술",
+        "미래산업",
+        "인공지능기술",
+        "생성형AI"
+      ],
+      "publishedAt": "2026-11-19T00:57:36.000Z",
+      "sourceUrl": "https://blog.naver.com/momoip1/224483057392",
+      "status": "live",
+      "firstSeenAt": "2026-11-19T01:16:42.521Z",
+      "updatedAt": "2026-11-19T01:16:42.521Z",
       "removedAt": null
     }
   ]
