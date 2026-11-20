@@ -1,6 +1,6 @@
 {
   "blogId": "haionnet2020",
-  "updatedAt": "2026-11-19T01:16:42.068Z",
+  "updatedAt": "2026-11-20T01:19:25.469Z",
   "posts": [
     {
       "blogId": "haionnet2020",
@@ -3830,6 +3830,31 @@
       "status": "live",
       "firstSeenAt": "2026-11-19T01:16:42.068Z",
       "updatedAt": "2026-11-19T01:16:42.068Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haionnet2020",
+      "logNo": "224484288805",
+      "title": "KT고정 KT유동 용도별 아이피 차이점 가격비교해보기",
+      "excerpt": "온라인에서 여러 채널을 운영하거나 시장 조사를 진행할 때, 작업 환경의 안정성은 결과물의 완성도만큼이나 중요합니다. 접속 환경이 수시로 바뀌거나 불안정하면 공들여 쌓아온 계정이 제한되는 등 예상치 못한 변수가 발생하기 때문이죠. 오늘은 작업 목적에 따라 선택할 수 있는 하이아이피의 두 가지 통신망 상품, KT고정아이피와 KT유동아이피의 특징을 알기 쉽게 비교해 보겠습니다. 일상적인 업무 환경과 접속 이력의 중요성 집과 사무실, 때로는 외부 카페 등 다양한 장소에서 업무를 보는 분들이 많습니다. 매번 다른 와이파이나 네트워크를 연결하다 보면 플랫폼 측에서 비정상적인 접근으로 오인하는 경우가 종종 생깁니다. 특히 브",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMTlfMTQ0/MDAxNzk1MDc5NjY2NjI2.Ojb8Gxjyt6eH03-VvMklPMYTIed4AUkh3FREu1aiLjEg.V50REzS1ahRYZPaX3lPeVUx12SUBiOD9E8VglcIj6vMg.PNG/%B4%EB%C7%A5%C0%CC%B9%CC%C1%F6.png?type=w966",
+      "category": "통신사고정/유동",
+      "tags": [
+        "아이피",
+        "아이피서비스",
+        "고정아이피",
+        "유동아이피",
+        "통신사아이피",
+        "kt아이피",
+        "kt고정아이피",
+        "kt유동아이피",
+        "마케팅아이피"
+      ],
+      "publishedAt": "2026-11-19T22:57:33.000Z",
+      "sourceUrl": "https://blog.naver.com/haionnet2020/224484288805",
+      "status": "live",
+      "firstSeenAt": "2026-11-20T01:19:25.469Z",
+      "updatedAt": "2026-11-20T01:19:25.469Z",
       "removedAt": null
     }
   ]

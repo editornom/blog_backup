@@ -1,6 +1,6 @@
 {
   "blogId": "haionnet486",
-  "updatedAt": "2026-11-19T01:16:40.905Z",
+  "updatedAt": "2026-11-20T01:19:24.210Z",
   "posts": [
     {
       "blogId": "haionnet486",
@@ -3829,6 +3829,34 @@
       "status": "live",
       "firstSeenAt": "2026-11-19T01:16:40.905Z",
       "updatedAt": "2026-11-19T01:16:40.905Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haionnet486",
+      "logNo": "224483618665",
+      "title": "GPU서버관리 최적화 AI 데이터센터 비용 인프라 전력제공 총정리",
+      "excerpt": "생성형 AI와 대표모 언어 모델(LLM)의 도입이 가속화되면서, 많은 기업이 고성능 GPU서버를 확보하고도 정작 이를 가동할 물리적 인프라가 부족해 난항을 겪고 있습니다. 기존 범용 데이터센터(IDC)의 랙당 전력 한계는 물론 냉각 시스템으로 수십 kW를 소모하는 최신 AI서버의 발열과 전력 부하를 감당하기 어려운 곳이 많으며, 서버를 입주할 공간, 고전력을 이용하려면 그만큼 드는 높은 비용 부담까지 고려해봤을 때 최적화된 인프라를 구축하기도, 업체를 찾기도 어려운 것이 현실입니다. AI 데이터센터, 기존 IDC와 다른 점은 무엇인가요? AI데이터센터는 고전력 공급과 액체 냉각 등 고효율 열관리 시스템을 기반으로 만들어진 차세대 인",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMTlfMTY2/MDAxNzk1MDc0ODEwNzk4.OTS3fhV9Wy1LYOh3EXE3N-7KjO16hFfZT0PdKBEw5qkg.finI_TpVPsTmfXz9_Uxw7JsNTa9dDKRV5vi-ZoBjJMYg.PNG/%C7%CF%C0%CC%BF%C2%B3%DDbatch_ChatGPT_Image_2026%B3%E2_9%BF%F9_16%C0%CF_%BF%C0%C8%C4_03_54_15.png?type=w966",
+      "category": "고전력코로케이션",
+      "tags": [
+        "하이온",
+        "ai데이터센터",
+        "gpu서버관리",
+        "고전력코로케이션",
+        "ai인프라구축",
+        "idc코로케이션",
+        "고전력idc",
+        "gpu코로케이션",
+        "b200",
+        "b300",
+        "H100",
+        "데이터센터"
+      ],
+      "publishedAt": "2026-11-20T00:04:04.000Z",
+      "sourceUrl": "https://blog.naver.com/haionnet486/224483618665",
+      "status": "live",
+      "firstSeenAt": "2026-11-20T01:19:24.210Z",
+      "updatedAt": "2026-11-20T01:19:24.210Z",
       "removedAt": null
     }
   ]

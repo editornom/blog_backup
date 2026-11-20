@@ -1,6 +1,6 @@
 {
   "blogId": "haion_yell",
-  "updatedAt": "2026-11-17T02:30:20.284Z",
+  "updatedAt": "2026-11-20T01:19:25.196Z",
   "posts": [
     {
       "blogId": "haion_yell",
@@ -3908,6 +3908,30 @@
       "status": "live",
       "firstSeenAt": "2026-11-17T02:30:20.284Z",
       "updatedAt": "2026-11-17T02:30:20.284Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haion_yell",
+      "logNo": "224483838103",
+      "title": "무비자 상하이 여행 전 필수 앱 세팅 & 실패 없는 맛집 리스트",
+      "excerpt": "요즘 짧은 일정으로 해외여행을 떠나고 싶다면 상하이는 어떠신가요? 한국인 무비자 입국이 가능해지면서 주말을 활용한 2박 3일 여행지로도 관심을 받고 있는데요. 유럽풍 거리와 화려한 야경, 감각적인 카페와 로컬 먹거리까지 한 번에 즐길 수 있어 첫 중국 여행지로도 매력적입니다. 상하이, 왜 지금 떠날까? 상하이는 와이탄의 고풍스러운 건축물과 푸둥의 현대적인 스카이라인이 어우러진 도시입니다. 예원에서는 중국 전통 정원의 분위기를, 우캉루에서는 유럽 감성의 거리와 카페를 만날 수 있죠. 관광과 쇼핑, 미식을 모두 즐길 수 있고 주요 명소를 묶어 2박 3일 일정으로 둘러보기에도 좋습니다. 무비자 정책은 출국 전 최신 시행 기",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMTlfMTQx/MDAxNzk1MDg3MjAxMzkw.v4LJQqcy6bEjO1KAKb2fQZsnr8yLuNDcxBSDKNpLmT8g.gvAECF8OtvrVLCg1r2r1S-15omTZpRZIS5oj4cCxlwEg.JPEG/media_breeze-china-7094961_1920.jpg?type=w966",
+      "category": "해외핫이슈",
+      "tags": [
+        "중국여행",
+        "중국",
+        "중국가볼만한곳",
+        "상하이",
+        "상하이여행",
+        "상하이여행준비",
+        "상하이11월날씨",
+        "상하이11월"
+      ],
+      "publishedAt": "2026-11-19T11:23:08.000Z",
+      "sourceUrl": "https://blog.naver.com/haion_yell/224483838103",
+      "status": "live",
+      "firstSeenAt": "2026-11-20T01:19:25.196Z",
+      "updatedAt": "2026-11-20T01:19:25.196Z",
       "removedAt": null
     }
   ]

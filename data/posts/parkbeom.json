@@ -1,6 +1,6 @@
 {
   "blogId": "parkbeom",
-  "updatedAt": "2026-11-19T01:16:42.304Z",
+  "updatedAt": "2026-11-20T01:19:25.729Z",
   "posts": [
     {
       "blogId": "parkbeom",
@@ -3837,6 +3837,33 @@
       "status": "live",
       "firstSeenAt": "2026-11-19T01:16:42.304Z",
       "updatedAt": "2026-11-19T01:16:42.304Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "parkbeom",
+      "logNo": "224484086345",
+      "title": "VPN설치 PC와 모바일 프로그램 추천 및 활용꿀팁",
+      "excerpt": "집이나 사무실에서는 인터넷을 편하게 사용하지만, 카페나 외부에서 노트북으로 업무를 처리할 때는 접속 환경이 신경 쓰이곤 합니다. 특히 회사 시스템에 접속하거나 중요한 자료를 주고받아야 한다면 연결 방식과 보안 설정을 확인할 필요가 있는데요. 복잡한 네트워크 설정을 하나하나 알아야 하는 것은 아닙니다. 오늘은 PC와 모바일에서 VPN설치를 진행하는 방법부터 프로그램 선택 기준, 실생활에서 유용한 활용 꿀팁까지 알아보겠습니다. PC·모바일·아이폰, 설치 방법이 다를까요? 기본적인 연결 원리는 비슷하지만 사용하는 운영체제에 따라 설정 방법은 달라집니다. 윈도우 PC는 공식 홈페이지에서 운영체제에 맞는 설치 파일을 받아 로",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMjBfMjY0/MDAxNzk1MTAxNzQzODY3.xLna7YTwTJw1sM961nrC7EtdJgCvWvlbHGfD4IP66fAg.IC2T6dfkqal8AbqiibNQvldNZ37dOAkHhw7e6xPrEUIg.PNG/%B4%EB%C7%A5%C0%CC%B9%CC%C1%F6.png?type=w966",
+      "category": "VPN 활용",
+      "tags": [
+        "프로그램설치",
+        "PC보안",
+        "모바일보안",
+        "윈도우프로그램",
+        "안드로이드앱",
+        "아이폰설정",
+        "원격접속",
+        "공공와이파이",
+        "암호화연결",
+        "무료테스트",
+        "쿨아이피"
+      ],
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "sourceUrl": "https://blog.naver.com/parkbeom/224484086345",
+      "status": "live",
+      "firstSeenAt": "2026-11-20T01:19:25.729Z",
+      "updatedAt": "2026-11-20T01:19:25.729Z",
       "removedAt": null
     }
   ]
