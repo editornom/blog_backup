@@ -1,6 +1,6 @@
 {
   "blogId": "parkbeom",
-  "updatedAt": "2026-11-20T01:19:25.729Z",
+  "updatedAt": "2026-11-23T00:21:11.821Z",
   "posts": [
     {
       "blogId": "parkbeom",
@@ -3864,6 +3864,32 @@
       "status": "live",
       "firstSeenAt": "2026-11-20T01:19:25.729Z",
       "updatedAt": "2026-11-20T01:19:25.729Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "parkbeom",
+      "logNo": "224487033775",
+      "title": "샤오미 18프로맥스 국내 출시! 가격, 스펙, 카메라 성능 총정리",
+      "excerpt": "스마트폰 후면에 카메라만 있는 시대가 달라지고 있습니다 샤오미가 후면에 별도의 디스플레이를 넣고, 라이카와 공동 개발한 듀얼 2억 화소 카메라까지 탑재한 새로운 플래그십 스마트폰을 국내에 선보였는데요. 바로 샤오미 18 프로 맥스입니다. 샤오미코리아는 2026년 11월 국내 출시를 공식 발표하고 사전 판매를 시작했습니다. 단순히 카메라 성능만 높인 제품이 아니라 후면 디스플레이와 AI 기능, 대용량 배터리까지 결합한 것이 특징인데요. 오늘은 샤오미 국내 출시 소식과 함께 가격, 주요 스펙, 카메라 성능까지 정리해보겠습니다. 1. 샤오미 18 프로 맥스 국내 가격은? 국내에 출시되는 샤오미 18 프로 맥스는 12GB RAM을 기본으로 저",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMjJfMjUg/MDAxNzk1MzI2MDI0NDIy.N-dS3nUW58GPifAKotCete6hCRsMP9_ZIpMkAFulaQcg.n8GfForgSsjZeJuJV0p2mXKRVZPpmKjbXnVUp4lvhqEg.JPEG/%BB%FE%BF%C0%B9%CC2.jpg?type=w966",
+      "category": "일상",
+      "tags": [
+        "샤오미18프로맥스",
+        "샤오미신제품",
+        "샤오미스마트폰",
+        "샤오미18프로맥스가격",
+        "샤오미18프로맥스카메라",
+        "라이카카메라",
+        "후면디스플레이",
+        "스냅드래곤8엘리트",
+        "샤오미배터리",
+        "샤오미국내출시"
+      ],
+      "publishedAt": "2026-11-23T00:00:00.000Z",
+      "sourceUrl": "https://blog.naver.com/parkbeom/224487033775",
+      "status": "live",
+      "firstSeenAt": "2026-11-23T00:21:11.821Z",
+      "updatedAt": "2026-11-23T00:21:11.821Z",
       "removedAt": null
     }
   ]
