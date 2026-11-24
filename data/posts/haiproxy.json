@@ -1,6 +1,6 @@
 {
   "blogId": "haiproxy",
-  "updatedAt": "2026-11-20T01:19:26.232Z",
+  "updatedAt": "2026-11-24T04:19:23.885Z",
   "posts": [
     {
       "blogId": "haiproxy",
@@ -4306,6 +4306,30 @@
       "status": "live",
       "firstSeenAt": "2026-11-20T01:19:26.232Z",
       "updatedAt": "2026-11-20T01:19:26.232Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haiproxy",
+      "logNo": "224489420902",
+      "title": "검색창이 사라진다! 앞으로 달라질 인터넷사이트 사용 방식 3가지",
+      "excerpt": "인공지능(AI) 기술이 일상 깊숙이 자리 잡으면서 지난 수십 년간 우리가 당연하게 여겼던 인터넷 사용 공식이 근본적으로 바뀌고 있습니다. 그동안 인터넷을 이용한다는 것은 포털 사이트의 네모난 검색창에 키워드를 입력하고, 나열된 수많은 웹페이지 링크 중 하나를 직접 클릭해 들어가 원하는 정보를 찾아 헤매는 과정을 의미했습니다. 하지만 대화형 AI와 AI 에이전트(비서)의 등장으로 이제는 웹사이트를 일일이 방문하지 않아도 목적을 달성하는 시대가 열리고 있습니다. 검색창이 사라진 미래, 앞으로 달라질 인터넷 사이트 사용 방식 3가지를 자세히 살펴보겠습니다. 첫 번째 변화는 ‘링크 클릭’에서 ‘즉각적인 정답과 요약 제공’으",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMjRfNzQg/MDAxNzk1NDc1MDg0NDAz.AZPibhej6qqTK-h9dDHcSQrcPfA0jIiHJbI8kD9pGFYg.RrBcPXcy1oftdUINPe9qw3Qfp3d63vw8XDo0T8Erj3Ug.JPEG/900_photo-1655196601100-8bfb26cf99e9.jpg?type=w966",
+      "category": "★일상 TIP",
+      "tags": [
+        "인터넷사이트개편",
+        "웹사이트달라지는점",
+        "인터넷사용방식",
+        "인터넷사이트사용방법",
+        "인터넷사이트달라지는점",
+        "웹사이트검색창",
+        "인터넷검색창",
+        "인터넷사이트검색"
+      ],
+      "publishedAt": "2026-11-23T23:06:17.000Z",
+      "sourceUrl": "https://blog.naver.com/haiproxy/224489420902",
+      "status": "live",
+      "firstSeenAt": "2026-11-24T04:19:23.885Z",
+      "updatedAt": "2026-11-24T04:19:23.885Z",
       "removedAt": null
     }
   ]

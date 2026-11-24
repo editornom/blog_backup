@@ -1,6 +1,6 @@
 {
   "blogId": "haion_yell",
-  "updatedAt": "2026-11-20T01:19:25.196Z",
+  "updatedAt": "2026-11-24T04:19:22.924Z",
   "posts": [
     {
       "blogId": "haion_yell",
@@ -3932,6 +3932,31 @@
       "status": "live",
       "firstSeenAt": "2026-11-20T01:19:25.196Z",
       "updatedAt": "2026-11-20T01:19:25.196Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haion_yell",
+      "logNo": "224487219957",
+      "title": "2026년 11월 일본 면세제도 변경! 돈키호테 쇼핑 후 공항에서 세금 돌려받는 방법",
+      "excerpt": "일본 여행을 준비하고 있다면 쇼핑할 때 꼭 알아둬야 할 변화가 있습니다. 바로 2026년 11월 1일부터 일본 면세제도가 새롭게 변경된다는 점인데요. 그동안 돈키호테나 드럭스토어에서 쇼핑할 때 여권을 보여주면 매장에서 바로 소비세를 제외한 금액으로 결제할 수 있었죠. 하지만 앞으로는 결제 방식이 달라집니다. 변경 이후에는 소비세가 포함된 금액으로 먼저 결제한 뒤, 일본을 출국하기 전 공항에서 구매 내역을 확인받고 세금을 환급받는 방식으로 바뀌는데요. 기존 방식에 익숙한 분들이라면 조금 낯설 수 있는 만큼 변경되는 내용과 환급 방법을 미리 알아두시길 바랍니다. 2026년 11월 일본 면세제도 변경 내용 가장 큰 변화는 면세 혜",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMjJfMTYy/MDAxNzk1MzM4ODYzOTc0.u_IdA-bA-8GFPs4-hxsULBRU-DsgBUEPrk7YAugUkzAg.s51CYHjM7iVdhkZWM2UuBzkvkohOBtUR9lZ1WgAZOx8g.JPEG/tenpal-japan-5081058_1920.jpg?type=w966",
+      "category": "해외핫이슈",
+      "tags": [
+        "돈키호테",
+        "일본",
+        "일본여행",
+        "일본돈키호테",
+        "일본면세방법",
+        "일본면세환급",
+        "일본면세변경",
+        "여행",
+        "해외여행"
+      ],
+      "publishedAt": "2026-11-23T01:00:00.000Z",
+      "sourceUrl": "https://blog.naver.com/haion_yell/224487219957",
+      "status": "live",
+      "firstSeenAt": "2026-11-24T04:19:22.924Z",
+      "updatedAt": "2026-11-24T04:19:22.924Z",
       "removedAt": null
     }
   ]

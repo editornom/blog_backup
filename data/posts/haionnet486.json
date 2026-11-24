@@ -1,6 +1,6 @@
 {
   "blogId": "haionnet486",
-  "updatedAt": "2026-11-20T01:19:24.210Z",
+  "updatedAt": "2026-11-24T04:19:21.950Z",
   "posts": [
     {
       "blogId": "haionnet486",
@@ -3857,6 +3857,35 @@
       "status": "live",
       "firstSeenAt": "2026-11-20T01:19:24.210Z",
       "updatedAt": "2026-11-20T01:19:24.210Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haionnet486",
+      "logNo": "224488399450",
+      "title": "AI 안경으로 시험 부정행위? 실제 적발 사례와 스마트안경 위험성",
+      "excerpt": "AI 안경을 이용한 시험 부정행위가 국내에서 실제로 적발됐습니다. 대학 논술시험과 토익, 국가자격시험에 이어 2026년 11월 19일 치러진 수능에서도 스마트안경을 사용한 사례가 확인됐는데요. 일반 안경처럼 생긴 기기에 카메라와 인공지능 기능이 탑재되면서 시험장의 새로운 보안 문제로 떠오르고 있습니다. 특히 시험 문제를 촬영하거나 외부 정보를 확인할 수 있다는 점에서 기존 전자기기와 다른 위험성이 제기되고 있습니다. 이번 글에서는 AI 안경의 기능부터 실제 부정행위 적발 사례, 스마트안경의 위험성과 대응 방법까지 살펴보겠습니다. AI 안경은 일반 안경과 무엇이 다를까요? AI 안경은 일반 안경에 카메라, 마이크, 스피커 등",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMjNfMjQg/MDAxNzk1NDEwNjc0Mzk3.T8eOJLOmnANaOvkKLmtaavkft2y8u65o2X5mkWuX0z0g.XHTFFocLMIg2MLEgAezWBrhbppQu_pYtyUWaNDY1TOIg.JPEG/%BD%BA%B8%B6%C6%AE%BE%C8%B0%E6.jpg?type=w966",
+      "category": "일상",
+      "tags": [
+        "AI안경",
+        "AI안경부정행위",
+        "스마트안경",
+        "시험부정행위",
+        "수능",
+        "수능부정행위",
+        "토익부정행위",
+        "논술시험부정행위",
+        "부정행위적발",
+        "스마트안경카메라",
+        "시험규정",
+        "전자기기반입",
+        "AI안경기능"
+      ],
+      "publishedAt": "2026-11-24T00:44:48.000Z",
+      "sourceUrl": "https://blog.naver.com/haionnet486/224488399450",
+      "status": "live",
+      "firstSeenAt": "2026-11-24T04:19:21.950Z",
+      "updatedAt": "2026-11-24T04:19:21.950Z",
       "removedAt": null
     }
   ]

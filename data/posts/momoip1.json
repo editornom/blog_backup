@@ -1,6 +1,6 @@
 {
   "blogId": "momoip1",
-  "updatedAt": "2026-11-21T00:50:46.251Z",
+  "updatedAt": "2026-11-24T04:19:23.647Z",
   "posts": [
     {
       "blogId": "momoip1",
@@ -3774,6 +3774,34 @@
       "status": "live",
       "firstSeenAt": "2026-11-21T00:50:46.251Z",
       "updatedAt": "2026-11-21T00:50:46.251Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "momoip1",
+      "logNo": "224487965772",
+      "title": "2026년 11월 스팀 신작 게임 추천! 출시일과 한글 지원 게임 총정리",
+      "excerpt": "2026년 11월에도 스팀(Steam)을 통해 다양한 PC 신작 게임이 출시되고 있습니다. 액션과 RPG부터 전략, 시뮬레이션, 인디 게임까지 장르가 다양해지면서 출시 일정과 주요 특징을 미리 확인하려는 이용자들도 많은데요. 특히 해외에서 개발된 게임은 한국어 지원 여부에 따라 플레이 환경이 달라질 수 있어 구매 전 확인이 필요합니다. 이번 11월 스팀 신작 정보를 중심으로 주요 출시 라인업을 확인하는 방법과 한글 지원 여부, 무료·유료 게임의 차이, 찜 목록 활용 방법까지 정리했습니다. > 2026년 11월 스팀 신작 게임 출시 일정 2026년 11월 스팀에서는 액션, RPG, 전략, 시뮬레이션 등 여러 장르의 PC 게",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMjNfMjk2/MDAxNzk1MzkzMzEyNDI3.QYL5n3nMsZuWjyeRxrRvLY35ErZRb2l5Ne0V6PS7D_cg.iA621DU7hx7NYxhagfdeDp1UAHSg4DREEPAVvq-2vssg.PNG/20261123_091458.png?type=w966",
+      "category": "IT이슈",
+      "tags": [
+        "11월스팀신작",
+        "2026신작게임",
+        "스팀신작추천",
+        "11월게임출시일",
+        "스팀한글지원게임",
+        "PC신작게임",
+        "스팀무료게임",
+        "스팀게임추천",
+        "스팀신작게임",
+        "11월신작게임",
+        "스팀한국어지원",
+        "스팀출시예정게임"
+      ],
+      "publishedAt": "2026-11-23T00:31:30.000Z",
+      "sourceUrl": "https://blog.naver.com/momoip1/224487965772",
+      "status": "live",
+      "firstSeenAt": "2026-11-24T04:19:23.647Z",
+      "updatedAt": "2026-11-24T04:19:23.647Z",
       "removedAt": null
     }
   ]

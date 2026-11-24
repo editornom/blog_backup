@@ -1,6 +1,6 @@
 {
   "blogId": "haionnet2020",
-  "updatedAt": "2026-11-20T01:19:25.469Z",
+  "updatedAt": "2026-11-24T04:19:23.167Z",
   "posts": [
     {
       "blogId": "haionnet2020",
@@ -3855,6 +3855,31 @@
       "status": "live",
       "firstSeenAt": "2026-11-20T01:19:25.469Z",
       "updatedAt": "2026-11-20T01:19:25.469Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haionnet2020",
+      "logNo": "224488282151",
+      "title": "삼성 AI안경 12월 출시! 가격 65만원부터 제미나이 기능과 사전예약 총정리",
+      "excerpt": "삼성전자와 구글, 그리고 젠틀몬스터가 협업해 선보이는 차세대 웨어러블 AI 안경 인텔리전트 아이웨어(Intelligent Eyewear)가 오는 2026년 12월 10일 한국과 미국에서 공식 출시됩니다. 이 제품의 가장 큰 특징은 무거운 디스플레이를 과감히 덜어내고 일반 안경과 다름없는 초경량 디자인을 유지했다는 점입니다. 여기에 고성능 카메라와 오디오, 그리고 구글의 최신 AI 모델을 결합해 스마트폰을 꺼내지 않고도 일상을 즐길 수 있는 핸즈프리 경험을 극대화했습니다. 국내 출고가는 모델과 렌즈 구성에 따라 65만 원에서 70만 원 선으로 책정되었습니다. 한국 시장에는 젠틀몬스터와 협업한 감각적인 디자인의 16종 컬렉션이 단독으로 출시되",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMjNfNjUg/MDAxNzk1NDA2NjExMDAy.BCIswrnFrd8SBOeE3vHsS-2n8a9eqh8wkmbLfuxtzZEg.fCXp-yPsy3KurVdAqYZIumzXbdePQ74612gVgFBqKI4g.JPEG/900_photo-1556306510-31ca015374b0.jpg?type=w966",
+      "category": "★일상 꿀팁",
+      "tags": [
+        "ai안경",
+        "삼성ai안경",
+        "ai안경가격",
+        "삼성ai안경출시",
+        "삼성ai안경사전예약",
+        "삼성ai안경가격",
+        "ai안경기능",
+        "삼성ai안경기능",
+        "삼성ai안경예약"
+      ],
+      "publishedAt": "2026-11-23T04:17:10.000Z",
+      "sourceUrl": "https://blog.naver.com/haionnet2020/224488282151",
+      "status": "live",
+      "firstSeenAt": "2026-11-24T04:19:23.167Z",
+      "updatedAt": "2026-11-24T04:19:23.167Z",
       "removedAt": null
     }
   ]
