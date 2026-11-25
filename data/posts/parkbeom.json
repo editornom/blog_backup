@@ -1,6 +1,6 @@
 {
   "blogId": "parkbeom",
-  "updatedAt": "2026-11-23T00:21:11.821Z",
+  "updatedAt": "2026-11-25T03:03:53.054Z",
   "posts": [
     {
       "blogId": "parkbeom",
@@ -3890,6 +3890,33 @@
       "status": "live",
       "firstSeenAt": "2026-11-23T00:21:11.821Z",
       "updatedAt": "2026-11-23T00:21:11.821Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "parkbeom",
+      "logNo": "224490521929",
+      "title": "통신사아이피 가격 사용방법은? 가입 전 알아야 할 선택 기준",
+      "excerpt": "인터넷을 이용하다 보면 평소에는 접속 주소를 크게 신경 쓰지 않지만, 재택근무나 서버 관리, 블로그 포스팅처럼 반복적으로 작업해야 한다면 이야기가 달라집니다. 이때 궁금해지는 것이 바로 통신사아이피 가격과 사용방법인데요. 오늘은 어떤 기준으로 상품을 선택해야 하는지, 가입 전 확인할 사항까지 정리해보겠습니다. 통신사아이피 고정형과 유동형 차이 인터넷에 접속하는 기기에는 외부에서 식별되는 주소가 있고, 통신사 회선이나 별도 접속 서비스를 통해 할당됩니다. 일정한 주소를 유지하는 고정IP와 필요에 따라 주소를 변경하는 유동IP로 구분되는데요. 고정형은 회사 업무 시스템이나 원격 서버처럼 특정 주소를 등록해야 하는",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMjRfMjgy/MDAxNzk1NTI1MDc3Mjcw.67uNB_zixNRGZN04bn9U5xXp_Ec4Bzy19XkqOXTNCTIg.MyQv54nxN15vhUWGYjAGoswn7qYh3hGsbv-XMhMUYzgg.PNG/%B4%EB%C7%A5%C0%CC%B9%CC%C1%F6.png?type=w966",
+      "category": "통신사아이피",
+      "tags": [
+        "통신사아이피",
+        "고정IP",
+        "유동IP",
+        "KT고정IP",
+        "KT유동IP",
+        "VPN요금제",
+        "접속속도",
+        "KT백본망",
+        "네트워크설정",
+        "무료테스트",
+        "쿨아이피"
+      ],
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "sourceUrl": "https://blog.naver.com/parkbeom/224490521929",
+      "status": "live",
+      "firstSeenAt": "2026-11-25T03:03:53.054Z",
+      "updatedAt": "2026-11-25T03:03:53.054Z",
       "removedAt": null
     }
   ]
