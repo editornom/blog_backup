@@ -1,6 +1,6 @@
 {
   "blogId": "momoip1",
-  "updatedAt": "2026-11-24T04:19:23.647Z",
+  "updatedAt": "2026-11-26T02:16:20.377Z",
   "posts": [
     {
       "blogId": "momoip1",
@@ -3802,6 +3802,38 @@
       "status": "live",
       "firstSeenAt": "2026-11-24T04:19:23.647Z",
       "updatedAt": "2026-11-24T04:19:23.647Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "momoip1",
+      "logNo": "224491366524",
+      "title": "KT고정아이피 가격 얼마일까 월 이용료부터 장기 할인까지 정리",
+      "excerpt": "블로그 운영이나 온라인 콘텐츠 관리 업무를 하다 보면 일정한 접속 환경이 필요할 때가 있습니다. 매달 지출되는 비용인 만큼 기본요금은 물론 사용 기간에 따라 얼마나 절약할 수 있는지도 알아두면 좋은데요. 오늘은 KT고정아이피 이용료와 신청 전 확인해야 할 사항을 정리해 보겠습니다. 업무 환경에 따라 달라지는 선택 기준 요즘은 사무실뿐 아니라 집이나 카페에서도 노트북을 이용해 업무를 보는 분들이 많습니다. 특히 블로그를 관리하는 일은 인터넷만 연결되어 있다면 어디서든 작업을 이어갈 수 있다는 장점이 있는데요. 다만 장소를 옮기거나 다른 인터넷망에 연결할 때 외부에 표시되는 접속 주소가 달라질 수 있습니다. 이러한 이",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMjVfMjg4/MDAxNzk1NTgwMDYwNzI3.sIlZl8unEt9aOCs1SRvY8RhwwmXMw9rMlEwOTcOLzEwg.6X5d_kKtmbaq47MaAFrsweh1e7zS6z4ebw0ljy_wy0Yg.PNG/%B4%EB%C7%A5%C0%CC%B9%CC%C1%F6.png?type=w966",
+      "category": "통신사아이피",
+      "tags": [
+        "KT고정아이피",
+        "KT고정아이피가격",
+        "KT고정IP",
+        "KT아이피",
+        "고정아이피",
+        "고정IP",
+        "고정아이피가격",
+        "고정아이피비용",
+        "고정아이피신청",
+        "고정아이피사용법",
+        "고정IP설정",
+        "KT백본망",
+        "모모아이피",
+        "모모IP",
+        "블로그아이피",
+        "블로그고정IP"
+      ],
+      "publishedAt": "2026-11-25T04:15:14.000Z",
+      "sourceUrl": "https://blog.naver.com/momoip1/224491366524",
+      "status": "live",
+      "firstSeenAt": "2026-11-26T02:16:20.377Z",
+      "updatedAt": "2026-11-26T02:16:20.377Z",
       "removedAt": null
     }
   ]

@@ -1,6 +1,6 @@
 {
   "blogId": "haionnet486",
-  "updatedAt": "2026-11-24T04:19:21.950Z",
+  "updatedAt": "2026-11-26T02:16:18.404Z",
   "posts": [
     {
       "blogId": "haionnet486",
@@ -3886,6 +3886,36 @@
       "status": "live",
       "firstSeenAt": "2026-11-24T04:19:21.950Z",
       "updatedAt": "2026-11-24T04:19:21.950Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haionnet486",
+      "logNo": "224491735655",
+      "title": "항공권 개인정보 유출, 대한항공·여행사 해킹 피해와 확인방법",
+      "excerpt": "대한항공과 아시아나항공에 이어 국내 여행사에서도 항공권 개인정보 유출 정황이 확인됐습니다. 글로벌 항공예약시스템 운영사인 아마데우스(Amadeus)가 해킹 피해를 입으면서 항공권 예약번호뿐만 아니라 일부 여행사 고객의 여권번호와 연락처 등도 유출된 정황이 확인됐는데요. 특히 항공사 홈페이지가 아닌 여행사를 통해 항공권을 구매한 고객도 이번 사고와 관련이 있을 수 있어 주의가 필요합니다. 그렇다면 어떤 개인정보가 유출됐으며, 내 정보가 유출됐는지는 어떻게 확인할 수 있을까요? 이번 글에서는 항공권 개인정보 유출 사건과 피해 확인 방법, 2차 피해 예방법까지 알아보겠습니다. 항공권 개인정보 유출, 무슨 일이 발생한 걸",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMjVfMjc3/MDAxNzk1NTkyMTUzMTA2.O7T5MxW4W4QPZkVxg5vDtVIgY5O-eemY4z-g3x3Uz8Ug.4_zvoOorefJFrP6p_UPuNJxSKUcNQ3obMHXoGyq4FgUg.JPEG/%BA%F1%C7%E0%B1%E2%C6%BC%C4%CF.jpg?type=w966",
+      "category": "일상",
+      "tags": [
+        "항공권개인정보유출",
+        "대한항공개인정보",
+        "여행사개인정보유출",
+        "개인정보유출",
+        "항공권예약정보",
+        "개인정보유출확인",
+        "여권번호유출",
+        "아마데우스해킹",
+        "스미싱",
+        "해킹피해",
+        "대한항공",
+        "노랑풍선",
+        "토파스",
+        "여권정보유출"
+      ],
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "sourceUrl": "https://blog.naver.com/haionnet486/224491735655",
+      "status": "live",
+      "firstSeenAt": "2026-11-26T02:16:18.404Z",
+      "updatedAt": "2026-11-26T02:16:18.404Z",
       "removedAt": null
     }
   ]
