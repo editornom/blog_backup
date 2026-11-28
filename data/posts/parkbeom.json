@@ -1,6 +1,6 @@
 {
   "blogId": "parkbeom",
-  "updatedAt": "2026-11-25T03:03:53.054Z",
+  "updatedAt": "2026-11-28T02:01:48.107Z",
   "posts": [
     {
       "blogId": "parkbeom",
@@ -3917,6 +3917,33 @@
       "status": "live",
       "firstSeenAt": "2026-11-25T03:03:53.054Z",
       "updatedAt": "2026-11-25T03:03:53.054Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "parkbeom",
+      "logNo": "224494968936",
+      "title": "IP변경이 필요한 순간 유동아이피를 활용하는 대표적인 사례",
+      "excerpt": "인터넷을 사용할 때는 평소 접속 주소가 무엇인지 크게 신경 쓰지 않습니다. 웹서핑이나 영상 시청 정도라면 현재 연결된 환경만으로도 충분하기 때문인데요. 하지만 온라인 마케팅이나 데이터 조사, 서비스 점검처럼 여러 환경에서 정보를 확인해야 하는 업무라면 이야기가 달라집니다. 특정 주소에서만 나타나는 접속 오류를 확인하거나 서로 다른 네트워크에서 서비스가 정상적으로 작동하는지 살펴봐야 하는 상황도 생길 수 있는데요. 이럴 때 활용할 수 있는 것이 유동아이피입니다. 오늘은 유동아이피를 활용하는 대표적인 사례와 선택 전 알아두어야 할 주의사항을 정리해보겠습니다. 유동아이피, 이럴 때 활용합니다 유동아이피는 필요에",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMjdfMzMg/MDAxNzk1Nzc1MTI0ODYx.KR2F6t3FrjrZMBQ_ik2uLUbk5Xqk_MdGzC1wfeKo_hIg.K_kWm7uhEnV5WDyeKj_TIR4rI_ypZatsoIlIDMkLuPQg.PNG/%B4%EB%C7%A5%C0%CC%B9%CC%C1%F6.png?type=w966",
+      "category": "유동아이피",
+      "tags": [
+        "유동아이피",
+        "IP변경",
+        "유동IP",
+        "KT유동IP",
+        "접속환경",
+        "데이터모니터링",
+        "광고모니터링",
+        "시장조사",
+        "IP대역",
+        "무료테스트",
+        "쿨아이피"
+      ],
+      "publishedAt": "2026-11-27T10:32:47.000Z",
+      "sourceUrl": "https://blog.naver.com/parkbeom/224494968936",
+      "status": "live",
+      "firstSeenAt": "2026-11-28T02:01:48.107Z",
+      "updatedAt": "2026-11-28T02:01:48.107Z",
       "removedAt": null
     }
   ]

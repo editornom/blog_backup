@@ -1,6 +1,6 @@
 {
   "blogId": "haion_yell",
-  "updatedAt": "2026-11-24T04:19:22.924Z",
+  "updatedAt": "2026-11-28T02:01:47.428Z",
   "posts": [
     {
       "blogId": "haion_yell",
@@ -3957,6 +3957,31 @@
       "status": "live",
       "firstSeenAt": "2026-11-24T04:19:22.924Z",
       "updatedAt": "2026-11-24T04:19:22.924Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haion_yell",
+      "logNo": "224494694981",
+      "title": "중국 무비자 2027년에도 가능할까? 12월 만료 앞둔 최산 상황 총정리",
+      "excerpt": "중국 여행을 계획하고 있다면 꼭 확인해야 할 소식이 있습니다. 바로 중국 무비자 입국 정책인데요. 한국인 관광객을 대상으로 시행 중인 중국 무비자 정책이 2026년 12월 31일 종료될 예정이기 때문입니다. 상하이, 베이징, 칭다오 등 중국 주요 도시를 여행할 때 비자 발급 없이 방문할 수 있어 편리했는데요. 그렇다면 2027년에도 지금처럼 무비자로 중국 여행을 떠날 수 있을까요? 현재까지 발표된 내용을 바탕으로 무비자 정책의 종료 시점과 연장 가능성, 입국 시 주의사항까지 정리해 보겠습니다. 중국 무비자 입국 정책, 언제까지 가능할까? 현재 한국 일반여권 소지자는 중국 정부의 일방적 무비자 정책에 따라 별도의 비자 없이 중국에",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMjdfMTcz/MDAxNzk1NzYxNDgxNTY1.LnCUHT1HMzrZulxM61t8WjkUVQ867nEkpzZ4ySDjpOAg.qtXVhsIfQG8KQG0Y1Wd2EaTxEYmgJpDbYznE8sDUnWQg.JPEG/we-o_rd35vfjgdnyzud3fw-china-7504392_1920.jpg?type=w966",
+      "category": "해외핫이슈",
+      "tags": [
+        "중국여행",
+        "중국",
+        "중국무비자2027",
+        "중국무비자연장",
+        "중국무비자",
+        "중국여행준비",
+        "중국비자",
+        "여행",
+        "해외여행"
+      ],
+      "publishedAt": "2026-11-27T06:40:43.000Z",
+      "sourceUrl": "https://blog.naver.com/haion_yell/224494694981",
+      "status": "live",
+      "firstSeenAt": "2026-11-28T02:01:47.428Z",
+      "updatedAt": "2026-11-28T02:01:47.428Z",
       "removedAt": null
     }
   ]

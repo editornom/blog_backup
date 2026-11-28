@@ -1,6 +1,6 @@
 {
   "blogId": "haiproxy",
-  "updatedAt": "2026-11-26T02:16:20.696Z",
+  "updatedAt": "2026-11-28T02:01:48.748Z",
   "posts": [
     {
       "blogId": "haiproxy",
@@ -4354,6 +4354,21 @@
       "status": "live",
       "firstSeenAt": "2026-11-26T02:16:20.696Z",
       "updatedAt": "2026-11-26T02:16:20.696Z",
+      "removedAt": null
+    },
+    {
+      "blogId": "haiproxy",
+      "logNo": "224494911907",
+      "title": "카페 공항 호텔 등 무료 wifi접속 시 금융거래하면 위험한 이유",
+      "excerpt": "카페, 공항, 호텔에서 제공하는 무료 wifi로 금융거래를 하면 개인정보가 노출될 위험이 있어 주의가 필요합니다. 커피를 마시거나 비행기를 기다리거나 출장지 호텔에 머물 때 무료 wifi를 이용하는 분들이 많은데요. 데이터 사용량을 아낄 수 있고 인터넷도 자유롭게 이용할 수 있어 편리하지만, 보안 면에서는 신경 써야 할 부분이 있습니다. 별도의 비밀번호 없이 접속하거나 매장에 안내된 암호를 입력하는 공공 wifi는 네트워크 환경에 따라 개인정보가 노출될 위험이 있습니다. 특히 인터넷뱅킹, 카드 결제, 업무용 계정 로그인처럼 민감한 정보를 주고받는 상황이라면 더욱 주의해야 합니다. 그렇다면 공공 wifi에는 어떤 위험이 있으며",
+      "thumbnail": "https://blogthumb.pstatic.net/MjAyNjExMjdfMjc5/MDAxNzk1NzcyMTAyNjU3.59kNO9ge21nRfYPJS-NCtvSoeYUVgUDvsa-pout3E6Ug.KpPMXqRhojZkGtcxDDx_kA4jTOzls8f1TDlc-Cldhy8g.PNG/%B4%EB%C7%A5%C0%CC%B9%CC%C1%F6.png?type=w966",
+      "category": "고정아이피",
+      "tags": [],
+      "publishedAt": "2026-11-27T09:35:14.000Z",
+      "sourceUrl": "https://blog.naver.com/haiproxy/224494911907",
+      "status": "live",
+      "firstSeenAt": "2026-11-28T02:01:48.748Z",
+      "updatedAt": "2026-11-28T02:01:48.748Z",
       "removedAt": null
     }
   ]
